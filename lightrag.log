@@ -1,0 +1,1688 @@
+2026-05-27 20:46:02,164 - lightrag - INFO - OpenAI LLM Options: {}
+2026-05-27 20:46:03,752 - lightrag - INFO - Embedding config: binding=openai model=text-embedding-004 embedding_dim=768 max_token_size=8192
+2026-05-27 20:46:03,754 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=768, has_param=True, binding=openai)
+2026-05-27 20:46:03,754 - lightrag - INFO - Embedding max_token_size: 8192 (from openai provider default)
+2026-05-27 20:46:03,756 - lightrag - INFO - Reranking is disabled
+2026-05-27 20:46:20,008 - lightrag - INFO - [] Created new empty graph file: D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml
+2026-05-27 20:46:20,493 - lightrag - INFO - WebUI assets mounted at /webui
+2026-05-27 20:46:20,635 - uvicorn.error - INFO - Started server process [2540]
+2026-05-27 20:46:20,635 - uvicorn.error - INFO - Waiting for application startup.
+2026-05-27 20:46:20,635 - lightrag - INFO - [] Process 2540 KV load full_docs with 0 records
+2026-05-27 20:46:20,635 - lightrag - INFO - [] Process 2540 KV load text_chunks with 0 records
+2026-05-27 20:46:20,635 - lightrag - INFO - [] Process 2540 KV load full_entities with 0 records
+2026-05-27 20:46:20,635 - lightrag - INFO - [] Process 2540 KV load full_relations with 0 records
+2026-05-27 20:46:20,651 - lightrag - INFO - [] Process 2540 KV load entity_chunks with 0 records
+2026-05-27 20:46:20,651 - lightrag - INFO - [] Process 2540 KV load relation_chunks with 0 records
+2026-05-27 20:46:20,653 - lightrag - INFO - [] Process 2540 KV load llm_response_cache with 0 records
+2026-05-27 20:46:20,655 - lightrag - INFO - [] Process 2540 doc status load doc_status with 0 records
+2026-05-27 20:46:20,657 - uvicorn.error - INFO - Application startup complete.
+2026-05-27 20:46:20,657 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-05-27 20:46:35,145 - uvicorn.access - INFO - 127.0.0.1:59732 - "GET / HTTP/1.1" 307
+2026-05-27 20:46:35,160 - uvicorn.access - INFO - 127.0.0.1:59732 - "GET /webui HTTP/1.1" 307
+2026-05-27 20:46:35,433 - uvicorn.access - INFO - 127.0.0.1:59732 - "GET /webui/assets/index-Cmfh6eB3.js HTTP/1.1" 200
+2026-05-27 20:46:35,447 - uvicorn.access - INFO - 127.0.0.1:56201 - "GET /webui/assets/chunk-Dlc7tRH4.js HTTP/1.1" 200
+2026-05-27 20:46:35,447 - uvicorn.access - INFO - 127.0.0.1:53291 - "GET /webui/assets/path-BmDdnQs8.js HTTP/1.1" 200
+2026-05-27 20:46:35,497 - uvicorn.access - INFO - 127.0.0.1:56201 - "GET /webui/assets/index-Dbwgayzd.css HTTP/1.1" 200
+2026-05-27 20:46:35,505 - uvicorn.access - INFO - 127.0.0.1:53291 - "GET /webui/assets/array-DA6v84qs.js HTTP/1.1" 200
+2026-05-27 20:46:35,521 - uvicorn.access - INFO - 127.0.0.1:56201 - "GET /webui/assets/katex-BX7meHaV.js HTTP/1.1" 200
+2026-05-27 20:46:35,554 - uvicorn.access - INFO - 127.0.0.1:53291 - "GET /webui/assets/_createAssigner-CdflnHPZ.js HTTP/1.1" 200
+2026-05-27 20:46:35,727 - uvicorn.access - INFO - 127.0.0.1:56201 - "GET /webui/assets/rough.esm-ezLMvHwD.js HTTP/1.1" 200
+2026-05-27 20:46:37,561 - uvicorn.access - INFO - 127.0.0.1:59732 - "GET /auth-status HTTP/1.1" 200
+2026-05-27 20:46:37,574 - uvicorn.access - INFO - 127.0.0.1:56201 - "GET /webui/favicon.png HTTP/1.1" 200
+2026-05-27 20:46:38,326 - uvicorn.access - INFO - 127.0.0.1:52010 - "GET /docs HTTP/1.1" 200
+2026-05-27 20:46:38,332 - uvicorn.access - INFO - 127.0.0.1:53291 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-05-27 20:46:38,337 - lightrag - INFO - [] Subgraph query successful | Node count: 0 | Edge count: 0
+2026-05-27 20:46:38,340 - uvicorn.access - INFO - 127.0.0.1:65025 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2026-05-27 20:46:38,375 - uvicorn.access - INFO - 127.0.0.1:53291 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 200
+2026-05-27 20:46:38,375 - uvicorn.access - INFO - 127.0.0.1:52010 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200
+2026-05-27 20:46:39,360 - uvicorn.access - INFO - 127.0.0.1:52010 - "GET /openapi.json HTTP/1.1" 200
+2026-05-27 20:57:48,089 - uvicorn.access - INFO - 127.0.0.1:54675 - "POST /documents/upload HTTP/1.1" 200
+2026-05-27 20:57:48,133 - lightrag - INFO - Successfully extracted and enqueued file: medical_knowledge.txt
+2026-05-27 20:57:48,137 - lightrag - INFO - Processing 1 document(s)
+2026-05-27 20:57:48,141 - lightrag - INFO - Extracting stage 1/1: medical_knowledge.txt
+2026-05-27 20:57:48,142 - lightrag - INFO - Processing d-id: doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 20:57:48,223 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-05-27 20:57:50,351 - lightrag - ERROR - Embedding func: Error in decorated function for task 2895195410768_2894.906: Error code: 404 - {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1main, or is not supported for embedContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-05-27 20:57:50,591 - lightrag - ERROR - Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2040, in process_document
+    await asyncio.gather(*first_stage_tasks)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\kg\nano_vector_db_impl.py", line 126, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 534, in __call__
+    result = await self.func(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 1064, in wait_func
+    return await future
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 768, in worker
+    result = await asyncio.wait_for(
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\api\lightrag_server.py", line 941, in optimized_embedding_function
+    return await actual_func(**kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 193, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\llm\openai.py", line 875, in openai_embed
+    response = await openai_async_client.embeddings.create(**api_params)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\resources\embeddings.py", line 260, in create
+    return await self._post(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1main, or is not supported for embedContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+
+2026-05-27 20:57:50,591 - lightrag - ERROR - Failed to extract document 1/1: medical_knowledge.txt
+2026-05-27 20:57:50,592 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-05-27 20:58:09,340 - uvicorn.access - INFO - 127.0.0.1:56432 - "POST /documents/upload HTTP/1.1" 200
+2026-05-27 20:58:56,063 - uvicorn.error - INFO - Shutting down
+2026-05-27 20:58:56,177 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-05-27 20:58:56,177 - lightrag - INFO - Successfully finalized 12 storages
+2026-05-27 20:58:56,177 - uvicorn.error - INFO - Application shutdown complete.
+2026-05-27 20:58:56,177 - uvicorn.error - INFO - Finished server process [2540]
+2026-05-27 20:59:23,227 - lightrag - INFO - OpenAI LLM Options: {}
+2026-05-27 20:59:23,228 - lightrag - INFO - Gemini Embedding Options: {}
+2026-05-27 20:59:27,574 - lightrag - INFO - Embedding config: binding=gemini model=text-embedding-004 embedding_dim=768 max_token_size=2048
+2026-05-27 20:59:27,574 - lightrag - INFO - Send embedding dimension: True forced by Gemini API (dimensions=768, has_param=True, binding=gemini)
+2026-05-27 20:59:27,574 - lightrag - INFO - Embedding max_token_size: 2048 (from gemini provider default)
+2026-05-27 20:59:27,574 - lightrag - INFO - Reranking is disabled
+2026-05-27 20:59:28,634 - lightrag - INFO - [] Created new empty graph file: D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml
+2026-05-27 20:59:28,845 - lightrag - INFO - WebUI assets mounted at /webui
+2026-05-27 20:59:28,906 - uvicorn.error - INFO - Started server process [15384]
+2026-05-27 20:59:28,906 - uvicorn.error - INFO - Waiting for application startup.
+2026-05-27 20:59:28,939 - lightrag - INFO - [] Process 15384 KV load full_docs with 1 records
+2026-05-27 20:59:28,939 - lightrag - INFO - [] Process 15384 KV load text_chunks with 0 records
+2026-05-27 20:59:28,942 - lightrag - INFO - [] Process 15384 KV load full_entities with 0 records
+2026-05-27 20:59:28,942 - lightrag - INFO - [] Process 15384 KV load full_relations with 0 records
+2026-05-27 20:59:28,942 - lightrag - INFO - [] Process 15384 KV load entity_chunks with 0 records
+2026-05-27 20:59:28,942 - lightrag - INFO - [] Process 15384 KV load relation_chunks with 0 records
+2026-05-27 20:59:28,948 - lightrag - INFO - [] Process 15384 KV load llm_response_cache with 0 records
+2026-05-27 20:59:28,961 - lightrag - INFO - [] Process 15384 doc status load doc_status with 1 records
+2026-05-27 20:59:28,963 - uvicorn.error - INFO - Application startup complete.
+2026-05-27 20:59:28,964 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-05-27 20:59:44,477 - uvicorn.access - INFO - 127.0.0.1:54983 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-05-27 20:59:44,515 - uvicorn.access - INFO - 127.0.0.1:54983 - "GET /docs HTTP/1.1" 200
+2026-05-27 20:59:44,916 - uvicorn.access - INFO - 127.0.0.1:54983 - "GET /openapi.json HTTP/1.1" 200
+2026-05-27 20:59:53,840 - uvicorn.access - INFO - 127.0.0.1:62251 - "DELETE /documents/delete_document HTTP/1.1" 200
+2026-05-27 20:59:53,841 - lightrag - INFO - Deleting document 1/1: doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 20:59:53,842 - lightrag - INFO - Starting deletion process for document doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 20:59:53,843 - lightrag - INFO - Deleting doc-42933182abbc338ed15958284d6d9c34 medical_knowledge.txt(previous status: FAILED)
+2026-05-27 20:59:53,844 - lightrag - INFO - No LLM cache entries found for document doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 20:59:53,845 - lightrag - INFO - Found 0 affected entities
+2026-05-27 20:59:53,846 - lightrag - INFO - Found 0 affected relations
+2026-05-27 20:59:53,848 - lightrag - INFO - Successfully deleted 3 chunks from storage
+2026-05-27 20:59:53,856 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-05-27 20:59:53,963 - lightrag - INFO - In memory DB persist to disk
+2026-05-27 20:59:53,963 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-05-27 20:59:53,976 - lightrag - INFO - In memory DB persist to disk
+2026-05-27 20:59:53,976 - lightrag - INFO - Document deleted 1/1: doc-42933182abbc338ed15958284d6d9c34[medical_knowledge.txt]
+2026-05-27 20:59:53,978 - lightrag - INFO - Successfully deleted enqueued file: medical_knowledge.txt
+2026-05-27 20:59:59,941 - uvicorn.access - INFO - 127.0.0.1:62251 - "POST /documents/upload HTTP/1.1" 200
+2026-05-27 20:59:59,965 - lightrag - INFO - Successfully extracted and enqueued file: medical_knowledge.txt
+2026-05-27 20:59:59,968 - lightrag - INFO - Processing 1 document(s)
+2026-05-27 20:59:59,969 - lightrag - INFO - Extracting stage 1/1: medical_knowledge.txt
+2026-05-27 20:59:59,972 - lightrag - INFO - Processing d-id: doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 21:00:00,005 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-05-27 21:00:00,354 - lightrag - ERROR - Embedding func: Error in decorated function for task 2103172526128_3026.687: 404 Not Found. {'message': '', 'status': 'Not Found'}
+2026-05-27 21:00:00,497 - lightrag - ERROR - Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2040, in process_document
+    await asyncio.gather(*first_stage_tasks)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\kg\nano_vector_db_impl.py", line 126, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 534, in __call__
+    result = await self.func(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 1064, in wait_func
+    return await future
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 768, in worker
+    result = await asyncio.wait_for(
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\api\lightrag_server.py", line 899, in optimized_embedding_function
+    return await actual_func(**kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 193, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\llm\gemini.py", line 579, in gemini_embed
+    response = await client.aio.models.embed_content(**request_kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\models.py", line 9063, in embed_content
+    return await self._embed_content(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\models.py", line 7187, in _embed_content
+    response = await self._api_client.async_request(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\_api_client.py", line 1651, in async_request
+    result = await self._async_request(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\_api_client.py", line 1584, in _async_request
+    return await self._async_retry(  # type: ignore[no-any-return]
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\_api_client.py", line 1515, in _async_request_once
+    await errors.APIError.raise_for_async_response(response)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\errors.py", line 247, in raise_for_async_response
+    await cls.raise_error_async(status_code, response_json, response)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\errors.py", line 269, in raise_error_async
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 Not Found. {'message': '', 'status': 'Not Found'}
+
+2026-05-27 21:00:00,497 - lightrag - ERROR - Failed to extract document 1/1: medical_knowledge.txt
+2026-05-27 21:00:00,513 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-05-27 21:01:39,389 - uvicorn.access - INFO - 127.0.0.1:55472 - "DELETE /documents/delete_document HTTP/1.1" 200
+2026-05-27 21:01:39,391 - lightrag - INFO - Deleting document 1/1: doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 21:01:39,392 - lightrag - INFO - Starting deletion process for document doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 21:01:39,393 - lightrag - INFO - Deleting doc-42933182abbc338ed15958284d6d9c34 medical_knowledge.txt(previous status: FAILED)
+2026-05-27 21:01:39,393 - lightrag - INFO - No LLM cache entries found for document doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 21:01:39,395 - lightrag - INFO - Found 0 affected entities
+2026-05-27 21:01:39,396 - lightrag - INFO - Found 0 affected relations
+2026-05-27 21:01:39,397 - lightrag - INFO - Successfully deleted 3 chunks from storage
+2026-05-27 21:01:39,403 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-05-27 21:01:39,405 - lightrag - INFO - In memory DB persist to disk
+2026-05-27 21:01:39,409 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-05-27 21:01:39,411 - lightrag - INFO - In memory DB persist to disk
+2026-05-27 21:01:39,412 - lightrag - INFO - Document deleted 1/1: doc-42933182abbc338ed15958284d6d9c34[medical_knowledge.txt]
+2026-05-27 21:01:39,418 - lightrag - INFO - Successfully deleted enqueued file: medical_knowledge.txt
+2026-05-27 21:01:45,694 - uvicorn.error - INFO - Shutting down
+2026-05-27 21:01:45,807 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-05-27 21:01:45,809 - lightrag - INFO - Successfully finalized 12 storages
+2026-05-27 21:01:45,811 - uvicorn.error - INFO - Application shutdown complete.
+2026-05-27 21:01:45,812 - uvicorn.error - INFO - Finished server process [15384]
+2026-05-27 21:07:26,876 - lightrag - INFO - OpenAI LLM Options: {}
+2026-05-27 21:07:26,876 - lightrag - INFO - Gemini Embedding Options: {}
+2026-05-27 21:07:28,568 - lightrag - INFO - Embedding config: binding=gemini model=gemini-embedding-001 embedding_dim=3072 max_token_size=2048
+2026-05-27 21:07:28,568 - lightrag - INFO - Send embedding dimension: True forced by Gemini API (dimensions=3072, has_param=True, binding=gemini)
+2026-05-27 21:07:28,568 - lightrag - INFO - Embedding max_token_size: 2048 (from gemini provider default)
+2026-05-27 21:07:28,568 - lightrag - INFO - Reranking is disabled
+2026-05-27 21:07:29,463 - lightrag - INFO - [] Created new empty graph file: D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml
+2026-05-27 21:07:29,645 - lightrag - INFO - WebUI assets mounted at /webui
+2026-05-27 21:07:29,698 - uvicorn.error - INFO - Started server process [9200]
+2026-05-27 21:07:29,698 - uvicorn.error - INFO - Waiting for application startup.
+2026-05-27 21:07:29,698 - lightrag - INFO - [] Process 9200 KV load full_docs with 0 records
+2026-05-27 21:07:29,698 - lightrag - INFO - [] Process 9200 KV load text_chunks with 0 records
+2026-05-27 21:07:29,698 - lightrag - INFO - [] Process 9200 KV load full_entities with 0 records
+2026-05-27 21:07:29,698 - lightrag - INFO - [] Process 9200 KV load full_relations with 0 records
+2026-05-27 21:07:29,698 - lightrag - INFO - [] Process 9200 KV load entity_chunks with 0 records
+2026-05-27 21:07:29,708 - lightrag - INFO - [] Process 9200 KV load relation_chunks with 0 records
+2026-05-27 21:07:29,708 - lightrag - INFO - [] Process 9200 KV load llm_response_cache with 0 records
+2026-05-27 21:07:29,709 - lightrag - INFO - [] Process 9200 doc status load doc_status with 0 records
+2026-05-27 21:07:29,710 - uvicorn.error - INFO - Application startup complete.
+2026-05-27 21:07:29,711 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-05-27 21:07:35,033 - uvicorn.access - INFO - 127.0.0.1:50460 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-05-27 21:07:35,072 - uvicorn.access - INFO - 127.0.0.1:50460 - "GET /docs HTTP/1.1" 200
+2026-05-27 21:07:35,411 - uvicorn.access - INFO - 127.0.0.1:50460 - "GET /openapi.json HTTP/1.1" 200
+2026-05-27 21:07:44,859 - uvicorn.access - INFO - 127.0.0.1:53648 - "POST /documents/upload HTTP/1.1" 200
+2026-05-27 21:07:44,885 - lightrag - INFO - Successfully extracted and enqueued file: medical_knowledge.txt
+2026-05-27 21:07:44,896 - lightrag - INFO - Processing 1 document(s)
+2026-05-27 21:07:44,900 - lightrag - INFO - Extracting stage 1/1: medical_knowledge.txt
+2026-05-27 21:07:44,902 - lightrag - INFO - Processing d-id: doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 21:07:44,934 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-05-27 21:07:45,284 - lightrag - ERROR - Embedding func: Error in decorated function for task 1660405215280_3491.625: 404 Not Found. {'message': '', 'status': 'Not Found'}
+2026-05-27 21:07:45,305 - lightrag - ERROR - Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2040, in process_document
+    await asyncio.gather(*first_stage_tasks)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\kg\nano_vector_db_impl.py", line 126, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 534, in __call__
+    result = await self.func(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 1064, in wait_func
+    return await future
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 768, in worker
+    result = await asyncio.wait_for(
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\api\lightrag_server.py", line 899, in optimized_embedding_function
+    return await actual_func(**kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 193, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\llm\gemini.py", line 579, in gemini_embed
+    response = await client.aio.models.embed_content(**request_kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\models.py", line 9063, in embed_content
+    return await self._embed_content(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\models.py", line 7187, in _embed_content
+    response = await self._api_client.async_request(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\_api_client.py", line 1651, in async_request
+    result = await self._async_request(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\_api_client.py", line 1584, in _async_request
+    return await self._async_retry(  # type: ignore[no-any-return]
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\_api_client.py", line 1515, in _async_request_once
+    await errors.APIError.raise_for_async_response(response)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\errors.py", line 247, in raise_for_async_response
+    await cls.raise_error_async(status_code, response_json, response)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\google\genai\errors.py", line 269, in raise_error_async
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 Not Found. {'message': '', 'status': 'Not Found'}
+
+2026-05-27 21:07:45,306 - lightrag - ERROR - Failed to extract document 1/1: medical_knowledge.txt
+2026-05-27 21:07:45,310 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-05-27 21:08:59,851 - uvicorn.access - INFO - 127.0.0.1:51897 - "DELETE /documents/delete_document HTTP/1.1" 200
+2026-05-27 21:08:59,851 - lightrag - INFO - Deleting document 1/1: doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 21:08:59,851 - lightrag - INFO - Starting deletion process for document doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 21:08:59,851 - lightrag - INFO - Deleting doc-42933182abbc338ed15958284d6d9c34 medical_knowledge.txt(previous status: FAILED)
+2026-05-27 21:08:59,851 - lightrag - INFO - No LLM cache entries found for document doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 21:08:59,851 - lightrag - INFO - Found 0 affected entities
+2026-05-27 21:08:59,867 - lightrag - INFO - Found 0 affected relations
+2026-05-27 21:08:59,868 - lightrag - INFO - Successfully deleted 3 chunks from storage
+2026-05-27 21:08:59,878 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-05-27 21:08:59,890 - lightrag - INFO - In memory DB persist to disk
+2026-05-27 21:08:59,897 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-05-27 21:08:59,902 - lightrag - INFO - In memory DB persist to disk
+2026-05-27 21:08:59,903 - lightrag - INFO - Document deleted 1/1: doc-42933182abbc338ed15958284d6d9c34[medical_knowledge.txt]
+2026-05-27 21:08:59,908 - lightrag - INFO - Successfully deleted enqueued file: medical_knowledge.txt
+2026-05-27 21:20:10,311 - uvicorn.error - INFO - Shutting down
+2026-05-27 21:20:10,420 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-05-27 21:20:10,420 - lightrag - INFO - Successfully finalized 12 storages
+2026-05-27 21:20:10,420 - uvicorn.error - INFO - Application shutdown complete.
+2026-05-27 21:20:10,420 - uvicorn.error - INFO - Finished server process [9200]
+2026-05-27 21:20:14,155 - lightrag - INFO - OpenAI LLM Options: {}
+2026-05-27 21:20:15,167 - lightrag - INFO - Embedding config: binding=openai model=gemini-embedding-001 embedding_dim=3072 max_token_size=8192
+2026-05-27 21:20:15,167 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=3072, has_param=True, binding=openai)
+2026-05-27 21:20:15,167 - lightrag - INFO - Embedding max_token_size: 8192 (from openai provider default)
+2026-05-27 21:20:15,167 - lightrag - INFO - Reranking is disabled
+2026-05-27 21:20:15,955 - lightrag - INFO - [] Created new empty graph file: D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml
+2026-05-27 21:20:16,128 - lightrag - INFO - WebUI assets mounted at /webui
+2026-05-27 21:20:16,214 - uvicorn.error - INFO - Started server process [16144]
+2026-05-27 21:20:16,214 - uvicorn.error - INFO - Waiting for application startup.
+2026-05-27 21:20:16,214 - lightrag - INFO - [] Process 16144 KV load full_docs with 0 records
+2026-05-27 21:20:16,214 - lightrag - INFO - [] Process 16144 KV load text_chunks with 0 records
+2026-05-27 21:20:16,214 - lightrag - INFO - [] Process 16144 KV load full_entities with 0 records
+2026-05-27 21:20:16,214 - lightrag - INFO - [] Process 16144 KV load full_relations with 0 records
+2026-05-27 21:20:16,214 - lightrag - INFO - [] Process 16144 KV load entity_chunks with 0 records
+2026-05-27 21:20:16,214 - lightrag - INFO - [] Process 16144 KV load relation_chunks with 0 records
+2026-05-27 21:20:16,225 - lightrag - INFO - [] Process 16144 KV load llm_response_cache with 0 records
+2026-05-27 21:20:16,226 - lightrag - INFO - [] Process 16144 doc status load doc_status with 0 records
+2026-05-27 21:20:16,227 - uvicorn.error - INFO - Application startup complete.
+2026-05-27 21:20:16,228 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-05-27 21:20:26,333 - uvicorn.access - INFO - 127.0.0.1:64986 - "GET /auth-status HTTP/1.1" 200
+2026-05-27 21:20:26,636 - uvicorn.access - INFO - 127.0.0.1:64986 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-05-27 21:20:26,658 - uvicorn.access - INFO - 127.0.0.1:64986 - "GET /docs HTTP/1.1" 200
+2026-05-27 21:20:26,678 - uvicorn.access - INFO - 127.0.0.1:64986 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200
+2026-05-27 21:20:27,109 - uvicorn.access - INFO - 127.0.0.1:64986 - "GET /openapi.json HTTP/1.1" 200
+2026-05-27 21:20:31,660 - uvicorn.access - INFO - 127.0.0.1:64986 - "POST /documents/upload HTTP/1.1" 200
+2026-05-27 21:20:31,684 - lightrag - INFO - Successfully extracted and enqueued file: medical_knowledge.txt
+2026-05-27 21:20:31,690 - lightrag - INFO - Processing 1 document(s)
+2026-05-27 21:20:31,692 - lightrag - INFO - Extracting stage 1/1: medical_knowledge.txt
+2026-05-27 21:20:31,694 - lightrag - INFO - Processing d-id: doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 21:20:31,725 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-05-27 21:20:33,903 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-05-27 21:20:51,797 - lightrag - INFO -  == LLM cache == saving: default:extract:1f742b8110ca82cb4c424ab6a039d2c7
+2026-05-27 21:20:53,427 - uvicorn.access - INFO - 127.0.0.1:52958 - "POST /documents/scan HTTP/1.1" 200
+2026-05-27 21:20:53,447 - lightrag - INFO - Found 0 files to index.
+2026-05-27 21:20:53,448 - lightrag - INFO - No upload file found, check if there are any documents in the queue...
+2026-05-27 21:20:53,449 - lightrag - INFO - Another process is already processing the document queue. Request queued.
+2026-05-27 21:20:55,982 - lightrag - INFO -  == LLM cache == saving: default:extract:3c83e5f9fdb7599d8409412afa2d21f8
+2026-05-27 21:21:04,976 - lightrag - INFO -  == LLM cache == saving: default:extract:bb9e814e2ff63f7649cd9b119b37b8dc
+2026-05-27 21:21:04,976 - lightrag - INFO - Chunk 1 of 3 extracted 15 Ent + 14 Rel chunk-96e28aae6032299447acac02ce3f0b8c
+2026-05-27 21:21:05,863 - lightrag - INFO -  == LLM cache == saving: default:extract:4ff9857464478b7f2538b28926ae2c1d
+2026-05-27 21:21:11,430 - lightrag - INFO -  == LLM cache == saving: default:extract:0fa3c25e8e7e482e92a99072652f2c8e
+2026-05-27 21:21:11,430 - lightrag - INFO - Chunk 2 of 3 extracted 29 Ent + 21 Rel chunk-c570560cb3de57650fb2c3c547bc9823
+2026-05-27 21:21:20,453 - lightrag - INFO -  == LLM cache == saving: default:extract:7d6cf792bcd0248b4c917114717b123c
+2026-05-27 21:21:20,458 - lightrag - INFO - Chunk 3 of 3 extracted 28 Ent + 22 Rel chunk-3f419eb1dbe85d6642f594fdfd62ed1e
+2026-05-27 21:21:20,459 - lightrag - INFO - Merging stage 1/1: medical_knowledge.txt
+2026-05-27 21:21:20,460 - lightrag - INFO - Phase 1: Processing 72 entities from doc-42933182abbc338ed15958284d6d9c34 (async: 8)
+2026-05-27 21:21:26,483 - lightrag - INFO - Phase 2: Processing 57 relations from doc-42933182abbc338ed15958284d6d9c34 (async: 8)
+2026-05-27 21:21:41,536 - lightrag - INFO - Phase 3: Updating final 72(72+0) entities and  57 relations from doc-42933182abbc338ed15958284d6d9c34
+2026-05-27 21:21:41,538 - lightrag - INFO - Completed merging: 72 entities, 0 extra entities, 57 relations
+2026-05-27 21:21:41,604 - lightrag - INFO - [] Writing graph with 72 nodes, 57 edges
+2026-05-27 21:21:41,645 - lightrag - INFO - In memory DB persist to disk
+2026-05-27 21:21:41,646 - lightrag - INFO - Completed processing file 1/1: medical_knowledge.txt
+2026-05-27 21:21:41,648 - lightrag - INFO - Processing additional documents due to pending request
+2026-05-27 21:21:41,650 - lightrag - INFO - All enqueued documents have been processed
+2026-05-27 21:21:41,651 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-05-27 21:23:13,130 - uvicorn.access - INFO - 127.0.0.1:59361 - "GET /webui/assets/rehype-katex-BX5VrZeK.js HTTP/1.1" 200
+2026-05-27 21:24:18,889 - lightrag - INFO -  == LLM cache == saving: global:keywords:5abc30a041152f9336ec7aeb270d93f4
+2026-05-27 21:24:19,545 - lightrag - INFO - Query edges: Prolonged fever of unknown origin, Unexplained weight loss, Chronic fatigue, Medical specialist referral (top_k:40, cosine:0.2)
+2026-05-27 21:24:19,556 - lightrag - INFO - Global query: 53 entites, 40 relations
+2026-05-27 21:24:19,558 - lightrag - INFO - Raw search results: 53 entities, 40 relations, 0 vector chunks
+2026-05-27 21:24:19,567 - lightrag - INFO - After truncation: 53 entities, 40 relations
+2026-05-27 21:24:19,572 - lightrag - INFO - Selecting 3 from 3 entity-related chunks by vector similarity
+2026-05-27 21:24:19,574 - lightrag - INFO - Find no additional relations-related chunks from 40 relations
+2026-05-27 21:24:19,575 - lightrag - INFO - Round-robin merged chunks: 3 -> 3 (deduplicated 0)
+2026-05-27 21:24:19,586 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-05-27 21:24:19,590 - lightrag - INFO - Final context: 53 entities, 40 relations, 3 chunks
+2026-05-27 21:24:19,590 - lightrag - INFO - Final chunks S+F/O: E21/1 E25/2 E7/3
+2026-05-27 21:24:25,758 - uvicorn.access - INFO - 127.0.0.1:49225 - "POST /query/stream HTTP/1.1" 200
+2026-05-27 21:24:45,995 - uvicorn.error - INFO - Shutting down
+2026-05-27 21:24:46,105 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-05-27 21:24:46,105 - lightrag - INFO - Successfully finalized 12 storages
+2026-05-27 21:24:46,105 - uvicorn.error - INFO - Application shutdown complete.
+2026-05-27 21:24:46,105 - uvicorn.error - INFO - Finished server process [16144]
+2026-05-31 09:04:59,453 - lightrag - INFO - OpenAI LLM Options: {}
+2026-05-31 09:05:01,307 - lightrag - INFO - Embedding config: binding=openai model=gemini-embedding-001 embedding_dim=768 max_token_size=8192
+2026-05-31 09:05:01,308 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=768, has_param=True, binding=openai)
+2026-05-31 09:05:01,310 - lightrag - INFO - Embedding max_token_size: 8192 (from openai provider default)
+2026-05-31 09:05:01,310 - lightrag - INFO - Reranking is disabled
+2026-05-31 09:05:02,384 - lightrag - INFO - [] Loaded graph from D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml with 72 nodes, 57 edges
+2026-05-31 09:05:02,415 - lightrag - ERROR - Failed to initialize LightRAG: Embedding dim mismatch, expected: 768, but loaded: 3072
+2026-05-31 09:05:25,207 - lightrag - INFO - OpenAI LLM Options: {}
+2026-05-31 09:05:26,196 - lightrag - INFO - Embedding config: binding=openai model=gemini-embedding-001 embedding_dim=768 max_token_size=8192
+2026-05-31 09:05:26,199 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=768, has_param=True, binding=openai)
+2026-05-31 09:05:26,199 - lightrag - INFO - Embedding max_token_size: 8192 (from openai provider default)
+2026-05-31 09:05:26,199 - lightrag - INFO - Reranking is disabled
+2026-05-31 09:05:26,967 - lightrag - INFO - [] Created new empty graph file: D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml
+2026-05-31 09:05:27,148 - lightrag - INFO - WebUI assets mounted at /webui
+2026-05-31 09:05:27,279 - uvicorn.error - INFO - Started server process [10060]
+2026-05-31 09:05:27,279 - uvicorn.error - INFO - Waiting for application startup.
+2026-05-31 09:05:27,279 - lightrag - INFO - [] Process 10060 KV load full_docs with 0 records
+2026-05-31 09:05:27,290 - lightrag - INFO - [] Process 10060 KV load text_chunks with 0 records
+2026-05-31 09:05:27,290 - lightrag - INFO - [] Process 10060 KV load full_entities with 0 records
+2026-05-31 09:05:27,290 - lightrag - INFO - [] Process 10060 KV load full_relations with 0 records
+2026-05-31 09:05:27,290 - lightrag - INFO - [] Process 10060 KV load entity_chunks with 0 records
+2026-05-31 09:05:27,294 - lightrag - INFO - [] Process 10060 KV load relation_chunks with 0 records
+2026-05-31 09:05:27,295 - lightrag - INFO - [] Process 10060 KV load llm_response_cache with 0 records
+2026-05-31 09:05:27,295 - lightrag - INFO - [] Process 10060 doc status load doc_status with 0 records
+2026-05-31 09:05:27,296 - uvicorn.error - INFO - Application startup complete.
+2026-05-31 09:05:27,297 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-05-31 09:05:42,163 - uvicorn.access - INFO - 127.0.0.1:61401 - "GET /webui/assets/index-Cmfh6eB3.js HTTP/1.1" 200
+2026-05-31 09:05:42,166 - uvicorn.access - INFO - 127.0.0.1:56980 - "GET /webui/assets/chunk-Dlc7tRH4.js HTTP/1.1" 200
+2026-05-31 09:05:42,199 - uvicorn.access - INFO - 127.0.0.1:56980 - "GET /webui/assets/index-Dbwgayzd.css HTTP/1.1" 200
+2026-05-31 09:05:42,206 - uvicorn.access - INFO - 127.0.0.1:56980 - "GET /webui/assets/path-BmDdnQs8.js HTTP/1.1" 200
+2026-05-31 09:05:42,247 - uvicorn.access - INFO - 127.0.0.1:56980 - "GET /webui/assets/array-DA6v84qs.js HTTP/1.1" 200
+2026-05-31 09:05:42,284 - uvicorn.access - INFO - 127.0.0.1:56980 - "GET /webui/assets/katex-BX7meHaV.js HTTP/1.1" 200
+2026-05-31 09:05:42,286 - uvicorn.access - INFO - 127.0.0.1:60649 - "GET /webui/assets/_createAssigner-CdflnHPZ.js HTTP/1.1" 200
+2026-05-31 09:05:42,384 - uvicorn.access - INFO - 127.0.0.1:56980 - "GET /webui/assets/rough.esm-ezLMvHwD.js HTTP/1.1" 200
+2026-05-31 09:05:43,445 - uvicorn.access - INFO - 127.0.0.1:56980 - "GET /auth-status HTTP/1.1" 200
+2026-05-31 09:05:43,998 - uvicorn.access - INFO - 127.0.0.1:56980 - "GET /webui/assets/rehype-katex-BX5VrZeK.js HTTP/1.1" 200
+2026-05-31 09:05:44,116 - uvicorn.access - INFO - 127.0.0.1:56980 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-05-31 09:05:44,128 - uvicorn.access - INFO - 127.0.0.1:56980 - "GET /docs HTTP/1.1" 200
+2026-05-31 09:05:44,153 - uvicorn.access - INFO - 127.0.0.1:61401 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200
+2026-05-31 09:05:44,155 - uvicorn.access - INFO - 127.0.0.1:56980 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 200
+2026-05-31 09:05:44,682 - uvicorn.access - INFO - 127.0.0.1:61401 - "GET /openapi.json HTTP/1.1" 200
+2026-05-31 09:06:00,521 - uvicorn.access - INFO - 127.0.0.1:51117 - "POST /documents/upload HTTP/1.1" 200
+2026-05-31 09:06:00,547 - lightrag - INFO - Successfully extracted and enqueued file: medical_knowledge.txt
+2026-05-31 09:06:00,552 - lightrag - INFO - Processing 1 document(s)
+2026-05-31 09:06:00,556 - lightrag - INFO - Extracting stage 1/1: medical_knowledge.txt
+2026-05-31 09:06:00,558 - lightrag - INFO - Processing d-id: doc-cb53c2ad510d2f54796520947e92d456
+2026-05-31 09:06:00,656 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-05-31 09:06:03,661 - lightrag - ERROR - Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2040, in process_document
+    await asyncio.gather(*first_stage_tasks)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\kg\nano_vector_db_impl.py", line 126, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 553, in __call__
+    raise ValueError(
+ValueError: Vector count mismatch: expected 7 vectors but got 28 vectors (from embedding result).
+
+2026-05-31 09:06:03,663 - lightrag - ERROR - Failed to extract document 1/1: medical_knowledge.txt
+2026-05-31 09:06:03,667 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-05-31 09:08:29,152 - uvicorn.error - INFO - Shutting down
+2026-05-31 09:08:29,262 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-05-31 09:08:29,262 - lightrag - INFO - Successfully finalized 12 storages
+2026-05-31 09:08:29,262 - uvicorn.error - INFO - Application shutdown complete.
+2026-05-31 09:08:29,262 - uvicorn.error - INFO - Finished server process [10060]
+2026-05-31 09:08:48,486 - lightrag - INFO - OpenAI LLM Options: {}
+2026-05-31 09:08:49,446 - lightrag - INFO - Embedding config: binding=openai model=gemini-embedding-001 embedding_dim=3072 max_token_size=8192
+2026-05-31 09:08:49,446 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=3072, has_param=True, binding=openai)
+2026-05-31 09:08:49,446 - lightrag - INFO - Embedding max_token_size: 8192 (from openai provider default)
+2026-05-31 09:08:49,446 - lightrag - INFO - Reranking is disabled
+2026-05-31 09:08:50,206 - lightrag - INFO - [] Created new empty graph file: D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml
+2026-05-31 09:08:50,371 - lightrag - INFO - WebUI assets mounted at /webui
+2026-05-31 09:08:50,456 - uvicorn.error - INFO - Started server process [19212]
+2026-05-31 09:08:50,456 - uvicorn.error - INFO - Waiting for application startup.
+2026-05-31 09:08:50,456 - lightrag - INFO - [] Process 19212 KV load full_docs with 0 records
+2026-05-31 09:08:50,460 - lightrag - INFO - [] Process 19212 KV load text_chunks with 0 records
+2026-05-31 09:08:50,460 - lightrag - INFO - [] Process 19212 KV load full_entities with 0 records
+2026-05-31 09:08:50,460 - lightrag - INFO - [] Process 19212 KV load full_relations with 0 records
+2026-05-31 09:08:50,460 - lightrag - INFO - [] Process 19212 KV load entity_chunks with 0 records
+2026-05-31 09:08:50,463 - lightrag - INFO - [] Process 19212 KV load relation_chunks with 0 records
+2026-05-31 09:08:50,465 - lightrag - INFO - [] Process 19212 KV load llm_response_cache with 0 records
+2026-05-31 09:08:50,465 - lightrag - INFO - [] Process 19212 doc status load doc_status with 0 records
+2026-05-31 09:08:50,466 - uvicorn.error - INFO - Application startup complete.
+2026-05-31 09:08:50,468 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-05-31 09:08:53,905 - uvicorn.access - INFO - 127.0.0.1:57878 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-05-31 09:08:53,941 - uvicorn.access - INFO - 127.0.0.1:57878 - "GET /docs HTTP/1.1" 200
+2026-05-31 09:08:53,953 - uvicorn.access - INFO - 127.0.0.1:57878 - "GET /webui/favicon.png HTTP/1.1" 200
+2026-05-31 09:08:54,302 - uvicorn.access - INFO - 127.0.0.1:57878 - "GET /openapi.json HTTP/1.1" 200
+2026-05-31 09:08:57,968 - uvicorn.access - INFO - 127.0.0.1:57878 - "POST /documents/upload HTTP/1.1" 200
+2026-05-31 09:08:57,990 - lightrag - INFO - Successfully extracted and enqueued file: medical_knowledge.txt
+2026-05-31 09:08:57,997 - lightrag - INFO - Processing 1 document(s)
+2026-05-31 09:08:57,998 - lightrag - INFO - Extracting stage 1/1: medical_knowledge.txt
+2026-05-31 09:08:57,999 - lightrag - INFO - Processing d-id: doc-cb53c2ad510d2f54796520947e92d456
+2026-05-31 09:08:58,033 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-05-31 09:09:00,543 - lightrag - INFO - LLM func: 1 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-05-31 09:09:17,420 - lightrag - INFO -  == LLM cache == saving: default:extract:4f8c1bcb356d38558c37931e9854ab49
+2026-05-31 09:09:32,261 - lightrag - INFO -  == LLM cache == saving: default:extract:d63456ca1909e1622ebaa32a967ccf46
+2026-05-31 09:09:32,268 - lightrag - INFO - Chunk 1 of 7 extracted 20 Ent + 20 Rel chunk-4a9057ae66e099a61ab2c2eecfe32d0f
+2026-05-31 09:09:49,417 - lightrag - INFO -  == LLM cache == saving: default:extract:254cafeccdf1cc9581f42bf2416ff2f9
+2026-05-31 09:10:19,829 - lightrag - INFO -  == LLM cache == saving: default:extract:231cfb0e0e7dab6daf52a20d62498803
+2026-05-31 09:10:19,838 - lightrag - INFO - Chunk 2 of 7 extracted 23 Ent + 20 Rel chunk-d0ab111832d14b217de66e2323cbed9e
+2026-05-31 09:10:42,649 - lightrag - INFO -  == LLM cache == saving: default:extract:7dfd858faaa02e54045232bbe73bc5ca
+2026-05-31 09:11:01,085 - lightrag - INFO -  == LLM cache == saving: default:extract:d4453db775feae8faf5ecb6361edf7ea
+2026-05-31 09:11:01,090 - lightrag - INFO - Chunk 3 of 7 extracted 17 Ent + 10 Rel chunk-ea3d38459f96ac489ae4843b77782336
+2026-05-31 09:11:28,921 - lightrag - INFO -  == LLM cache == saving: default:extract:5f99e41b723689986b6ee2df6c004868
+2026-05-31 09:11:43,779 - lightrag - INFO -  == LLM cache == saving: default:extract:246a811e1d444de21ece5e9c41eb4b6f
+2026-05-31 09:11:43,784 - lightrag - INFO - Chunk 4 of 7 extracted 20 Ent + 16 Rel chunk-5ff22fae840b4b42c2fd8c84de530bc2
+2026-05-31 09:12:12,870 - lightrag - INFO -  == LLM cache == saving: default:extract:42c20581b90a1962db1955ff3d7df9bf
+2026-05-31 09:12:36,302 - lightrag - INFO -  == LLM cache == saving: default:extract:a92f838e31d97a45538fa2fb3075805b
+2026-05-31 09:12:36,302 - lightrag - INFO - Chunk 5 of 7 extracted 36 Ent + 33 Rel chunk-23170f3a2d28bf8545a26f7ab8061b15
+2026-05-31 09:13:04,607 - lightrag - INFO -  == LLM cache == saving: default:extract:5f5dab68b55c4c7b3e760fcb557446bf
+2026-05-31 09:13:23,388 - lightrag - INFO -  == LLM cache == saving: default:extract:9d02cf9197b4b068f35a16c80d75e92b
+2026-05-31 09:13:23,392 - lightrag - INFO - Chunk 6 of 7 extracted 32 Ent + 21 Rel chunk-6e8a65826ec29f9ccc26368014c20a70
+2026-05-31 09:13:47,067 - lightrag - INFO -  == LLM cache == saving: default:extract:2c6472b86a149fe1174d2c53dcdba0ad
+2026-05-31 09:14:00,940 - lightrag - INFO -  == LLM cache == saving: default:extract:6ea38990a6932e600b1c8e75453a2357
+2026-05-31 09:14:00,945 - lightrag - INFO - Chunk 7 of 7 extracted 17 Ent + 13 Rel chunk-f4d61e5984b17c3f1be84f0dc24fe6d1
+2026-05-31 09:14:00,947 - lightrag - INFO - Merging stage 1/1: medical_knowledge.txt
+2026-05-31 09:14:00,948 - lightrag - INFO - Phase 1: Processing 145 entities from doc-cb53c2ad510d2f54796520947e92d456 (async: 2)
+2026-05-31 09:14:40,249 - lightrag - ERROR - Embedding func: Error in decorated function for task 1475489948256_6610.609: RetryError[<Future at 0x1578909d000 state=finished raised RateLimitError>]
+2026-05-31 09:14:40,251 - lightrag - WARNING - VDB entity_upsert attempt 1 failed for Asthma: RetryError[<Future at 0x1578909d000 state=finished raised RateLimitError>], retrying...
+2026-05-31 09:14:47,246 - lightrag - ERROR - Embedding func: Error in decorated function for task 1475489946800_6617.937: RetryError[<Future at 0x1578a16f820 state=finished raised RateLimitError>]
+2026-05-31 09:14:47,248 - lightrag - WARNING - VDB entity_upsert attempt 1 failed for Khoa Chỉnh Nha: RetryError[<Future at 0x1578a16f820 state=finished raised RateLimitError>], retrying...
+2026-05-31 09:14:54,147 - lightrag - ERROR - Embedding func: Error in decorated function for task 1475489948256_6624.578: RetryError[<Future at 0x157890845e0 state=finished raised RateLimitError>]
+2026-05-31 09:14:54,148 - lightrag - WARNING - VDB entity_upsert attempt 1 failed for Khoa Nhãn Khoa: RetryError[<Future at 0x157890845e0 state=finished raised RateLimitError>], retrying...
+2026-05-31 09:15:00,609 - lightrag - ERROR - Embedding func: Error in decorated function for task 1475489946800_6631.031: RetryError[<Future at 0x15789053130 state=finished raised RateLimitError>]
+2026-05-31 09:15:00,611 - lightrag - WARNING - VDB entity_upsert attempt 2 failed for Khoa Chỉnh Nha: RetryError[<Future at 0x15789053130 state=finished raised RateLimitError>], retrying...
+2026-05-31 09:15:16,728 - lightrag - INFO - Phase 2: Processing 133 relations from doc-cb53c2ad510d2f54796520947e92d456 (async: 2)
+2026-05-31 09:15:51,511 - lightrag - ERROR - Embedding func: Error in decorated function for task 1475489946800_6682.0: RetryError[<Future at 0x1578909d600 state=finished raised RateLimitError>]
+2026-05-31 09:15:51,514 - lightrag - WARNING - VDB relationship_upsert attempt 1 failed for Khoa Thần Kinh-Đau Đầu Migraine: RetryError[<Future at 0x1578909d600 state=finished raised RateLimitError>], retrying...
+2026-05-31 09:15:51,681 - lightrag - ERROR - Embedding func: Error in decorated function for task 1475507691296_6682.0: RetryError[<Future at 0x1578a1a89a0 state=finished raised RateLimitError>]
+2026-05-31 09:15:51,683 - lightrag - WARNING - VDB relationship_upsert attempt 1 failed for Bướu Giáp-Khoa Ngoại Tổng Quát: RetryError[<Future at 0x1578a1a89a0 state=finished raised RateLimitError>], retrying...
+2026-05-31 09:16:29,311 - lightrag - INFO - Phase 3: Updating final 145(145+0) entities and  133 relations from doc-cb53c2ad510d2f54796520947e92d456
+2026-05-31 09:16:29,313 - lightrag - INFO - Completed merging: 145 entities, 0 extra entities, 133 relations
+2026-05-31 09:16:29,424 - lightrag - INFO - [] Writing graph with 145 nodes, 133 edges
+2026-05-31 09:16:29,563 - lightrag - INFO - In memory DB persist to disk
+2026-05-31 09:16:29,563 - lightrag - INFO - Completed processing file 1/1: medical_knowledge.txt
+2026-05-31 09:16:29,565 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-05-31 09:46:28,129 - uvicorn.error - INFO - Shutting down
+2026-05-31 09:46:28,236 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-05-31 09:46:28,239 - lightrag - INFO - Successfully finalized 12 storages
+2026-05-31 09:46:28,239 - uvicorn.error - INFO - Application shutdown complete.
+2026-05-31 09:46:28,239 - uvicorn.error - INFO - Finished server process [19212]
+2026-05-31 09:46:34,359 - lightrag - INFO - OpenAI LLM Options: {}
+2026-05-31 09:46:35,749 - lightrag - INFO - Embedding config: binding=openai model=gemini-embedding-001 embedding_dim=3072 max_token_size=8192
+2026-05-31 09:46:35,749 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=3072, has_param=True, binding=openai)
+2026-05-31 09:46:35,749 - lightrag - INFO - Embedding max_token_size: 8192 (from openai provider default)
+2026-05-31 09:46:35,749 - lightrag - INFO - Reranking is disabled
+2026-05-31 09:46:36,650 - lightrag - INFO - [] Created new empty graph file: D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml
+2026-05-31 09:46:36,844 - lightrag - INFO - WebUI assets mounted at /webui
+2026-05-31 09:46:36,967 - uvicorn.error - INFO - Started server process [12300]
+2026-05-31 09:46:36,967 - uvicorn.error - INFO - Waiting for application startup.
+2026-05-31 09:46:36,969 - lightrag - INFO - [] Process 12300 KV load full_docs with 0 records
+2026-05-31 09:46:36,969 - lightrag - INFO - [] Process 12300 KV load text_chunks with 0 records
+2026-05-31 09:46:36,969 - lightrag - INFO - [] Process 12300 KV load full_entities with 0 records
+2026-05-31 09:46:36,973 - lightrag - INFO - [] Process 12300 KV load full_relations with 0 records
+2026-05-31 09:46:36,973 - lightrag - INFO - [] Process 12300 KV load entity_chunks with 0 records
+2026-05-31 09:46:36,975 - lightrag - INFO - [] Process 12300 KV load relation_chunks with 0 records
+2026-05-31 09:46:36,975 - lightrag - INFO - [] Process 12300 KV load llm_response_cache with 0 records
+2026-05-31 09:46:36,975 - lightrag - INFO - [] Process 12300 doc status load doc_status with 0 records
+2026-05-31 09:46:36,979 - uvicorn.error - INFO - Application startup complete.
+2026-05-31 09:46:36,979 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-05-31 09:46:40,629 - uvicorn.error - INFO - Shutting down
+2026-05-31 09:46:40,737 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-05-31 09:46:40,738 - lightrag - INFO - Successfully finalized 12 storages
+2026-05-31 09:46:40,739 - uvicorn.error - INFO - Application shutdown complete.
+2026-05-31 09:46:40,739 - uvicorn.error - INFO - Finished server process [12300]
+2026-05-31 09:50:04,792 - lightrag - INFO - OpenAI LLM Options: {}
+2026-05-31 09:50:05,697 - lightrag - INFO - Embedding config: binding=openai model=gemini-embedding-001 embedding_dim=3072 max_token_size=8192
+2026-05-31 09:50:05,697 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=3072, has_param=True, binding=openai)
+2026-05-31 09:50:05,697 - lightrag - INFO - Embedding max_token_size: 8192 (from openai provider default)
+2026-05-31 09:50:05,709 - lightrag - INFO - Reranking is disabled
+2026-05-31 09:50:06,434 - lightrag - INFO - [] Created new empty graph file: D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml
+2026-05-31 09:50:06,596 - lightrag - INFO - WebUI assets mounted at /webui
+2026-05-31 09:50:06,665 - uvicorn.error - INFO - Started server process [17956]
+2026-05-31 09:50:06,665 - uvicorn.error - INFO - Waiting for application startup.
+2026-05-31 09:50:06,665 - lightrag - INFO - [] Process 17956 KV load full_docs with 0 records
+2026-05-31 09:50:06,665 - lightrag - INFO - [] Process 17956 KV load text_chunks with 0 records
+2026-05-31 09:50:06,681 - lightrag - INFO - [] Process 17956 KV load full_entities with 0 records
+2026-05-31 09:50:06,681 - lightrag - INFO - [] Process 17956 KV load full_relations with 0 records
+2026-05-31 09:50:06,681 - lightrag - INFO - [] Process 17956 KV load entity_chunks with 0 records
+2026-05-31 09:50:06,681 - lightrag - INFO - [] Process 17956 KV load relation_chunks with 0 records
+2026-05-31 09:50:06,683 - lightrag - INFO - [] Process 17956 KV load llm_response_cache with 0 records
+2026-05-31 09:50:06,684 - lightrag - INFO - [] Process 17956 doc status load doc_status with 0 records
+2026-05-31 09:50:06,685 - uvicorn.error - INFO - Application startup complete.
+2026-05-31 09:50:06,687 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-05-31 09:50:21,705 - uvicorn.access - INFO - 127.0.0.1:59686 - "GET /webui/assets/index-Cmfh6eB3.js HTTP/1.1" 200
+2026-05-31 09:50:21,710 - uvicorn.access - INFO - 127.0.0.1:62747 - "GET /webui/assets/chunk-Dlc7tRH4.js HTTP/1.1" 200
+2026-05-31 09:50:21,721 - uvicorn.access - INFO - 127.0.0.1:62747 - "GET /webui/assets/index-Dbwgayzd.css HTTP/1.1" 200
+2026-05-31 09:50:21,748 - uvicorn.access - INFO - 127.0.0.1:62747 - "GET /webui/assets/path-BmDdnQs8.js HTTP/1.1" 200
+2026-05-31 09:50:21,756 - uvicorn.access - INFO - 127.0.0.1:62747 - "GET /webui/assets/array-DA6v84qs.js HTTP/1.1" 200
+2026-05-31 09:50:21,766 - uvicorn.access - INFO - 127.0.0.1:62747 - "GET /webui/assets/katex-BX7meHaV.js HTTP/1.1" 200
+2026-05-31 09:50:21,852 - uvicorn.access - INFO - 127.0.0.1:62250 - "GET /webui/assets/_createAssigner-CdflnHPZ.js HTTP/1.1" 200
+2026-05-31 09:50:21,861 - uvicorn.access - INFO - 127.0.0.1:62747 - "GET /webui/assets/rough.esm-ezLMvHwD.js HTTP/1.1" 200
+2026-05-31 09:50:22,801 - uvicorn.access - INFO - 127.0.0.1:59686 - "GET /auth-status HTTP/1.1" 200
+2026-05-31 09:50:23,116 - uvicorn.access - INFO - 127.0.0.1:59686 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-05-31 09:50:23,118 - uvicorn.access - INFO - 127.0.0.1:62250 - "GET /docs HTTP/1.1" 200
+2026-05-31 09:50:23,147 - uvicorn.access - INFO - 127.0.0.1:59686 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200
+2026-05-31 09:50:23,148 - uvicorn.access - INFO - 127.0.0.1:62250 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 200
+2026-05-31 09:50:23,706 - uvicorn.access - INFO - 127.0.0.1:59686 - "GET /openapi.json HTTP/1.1" 200
+2026-05-31 09:50:29,394 - uvicorn.access - INFO - 127.0.0.1:57747 - "POST /documents/upload HTTP/1.1" 200
+2026-05-31 09:50:29,418 - lightrag - INFO - Successfully extracted and enqueued file: medical_knowledge.txt
+2026-05-31 09:50:29,423 - lightrag - INFO - Processing 1 document(s)
+2026-05-31 09:50:29,427 - lightrag - INFO - Extracting stage 1/1: medical_knowledge.txt
+2026-05-31 09:50:29,429 - lightrag - INFO - Processing d-id: doc-cb53c2ad510d2f54796520947e92d456
+2026-05-31 09:50:29,509 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-05-31 09:50:31,654 - lightrag - INFO - LLM func: 1 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-05-31 09:50:49,918 - lightrag - INFO -  == LLM cache == saving: default:extract:ac79af04e8252b6e8198ea77513db02b
+2026-05-31 09:51:03,577 - lightrag - INFO -  == LLM cache == saving: default:extract:8c36f1c5e2e93733282649edaeeade54
+2026-05-31 09:51:03,581 - lightrag - INFO - Chunk 1 of 3 extracted 17 Ent + 17 Rel chunk-2c644902e390c6a656b10cbf1d39739a
+2026-05-31 09:51:38,565 - lightrag - INFO -  == LLM cache == saving: default:extract:6cd2d83b37c433b8ecec14ff31712884
+2026-05-31 09:51:55,586 - lightrag - INFO -  == LLM cache == saving: default:extract:45e25b97ead1c32bdac00f813a6d97e6
+2026-05-31 09:51:55,594 - lightrag - INFO - Chunk 2 of 3 extracted 25 Ent + 22 Rel chunk-5b427639df6fe679f9d3a582af00d757
+2026-05-31 09:52:37,739 - lightrag - INFO -  == LLM cache == saving: default:extract:8b3e8ae1d3acfbbf4149c303ae8feaa0
+2026-05-31 09:53:11,442 - lightrag - INFO -  == LLM cache == saving: default:extract:78e4b1a7555123cb9f789d1a0cd57458
+2026-05-31 09:53:11,447 - lightrag - INFO - Chunk 3 of 3 extracted 39 Ent + 29 Rel chunk-55aa7afcb95ff6ae77529d554dbb354f
+2026-05-31 09:53:11,450 - lightrag - INFO - Merging stage 1/1: medical_knowledge.txt
+2026-05-31 09:53:11,451 - lightrag - INFO - Phase 1: Processing 71 entities from doc-cb53c2ad510d2f54796520947e92d456 (async: 2)
+2026-05-31 09:53:30,871 - lightrag - INFO - Phase 2: Processing 67 relations from doc-cb53c2ad510d2f54796520947e92d456 (async: 2)
+2026-05-31 09:53:53,819 - lightrag - INFO - Phase 3: Updating final 71(71+0) entities and  67 relations from doc-cb53c2ad510d2f54796520947e92d456
+2026-05-31 09:53:53,821 - lightrag - INFO - Completed merging: 71 entities, 0 extra entities, 67 relations
+2026-05-31 09:53:53,890 - lightrag - INFO - [] Writing graph with 71 nodes, 67 edges
+2026-05-31 09:53:54,006 - lightrag - INFO - In memory DB persist to disk
+2026-05-31 09:53:54,007 - lightrag - INFO - Completed processing file 1/1: medical_knowledge.txt
+2026-05-31 09:53:54,008 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-05-31 10:11:56,728 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:fec90c269a186c4aee0195fbdaec6882
+2026-05-31 10:11:57,306 - lightrag - INFO - Query nodes: Epigastric pain, Heartburn, Acid reflux, Burning sensation behind breastbone, Stomach pain (top_k:40, cosine:0.2)
+2026-05-31 10:11:57,333 - lightrag - INFO - Local query: 40 entites, 53 relations
+2026-05-31 10:11:57,334 - lightrag - INFO - Query edges: Medical department recommendation, Gastroenterology, Gastrointestinal disorders, Acid reflux disease (top_k:40, cosine:0.2)
+2026-05-31 10:11:57,334 - lightrag - INFO - Global query: 47 entites, 40 relations
+2026-05-31 10:11:57,343 - lightrag - INFO - Raw search results: 58 entities, 56 relations, 0 vector chunks
+2026-05-31 10:11:57,348 - lightrag - INFO - After truncation: 58 entities, 56 relations
+2026-05-31 10:11:57,360 - lightrag - INFO - Selecting 3 from 3 entity-related chunks by vector similarity
+2026-05-31 10:11:57,364 - lightrag - INFO - Find no additional relations-related chunks from 56 relations
+2026-05-31 10:11:57,365 - lightrag - INFO - Round-robin merged chunks: 3 -> 3 (deduplicated 0)
+2026-05-31 10:11:57,372 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-05-31 10:11:57,372 - lightrag - INFO - Final context: 58 entities, 56 relations, 3 chunks
+2026-05-31 10:11:57,372 - lightrag - INFO - Final chunks S+F/O: E17/1 E24/2 E26/3
+2026-05-31 10:11:59,255 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 33.048500434s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}]
+2026-05-31 10:12:05,426 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 26.896841838s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '26s'}]}}]
+2026-05-31 10:12:11,156 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 21.153569448s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}]
+2026-05-31 10:12:11,158 - lightrag - ERROR - LLM func: Error in decorated function for task 1901463737280_10061.078: RetryError[<Future at 0x1babca7a680 state=finished raised RateLimitError>]
+2026-05-31 10:12:11,159 - lightrag - ERROR - Query failed: RetryError[<Future at 0x1babca7a680 state=finished raised RateLimitError>]
+2026-05-31 10:12:11,159 - uvicorn.access - INFO - 127.0.0.1:56571 - "POST /query HTTP/1.1" 200
+2026-05-31 10:12:50,147 - uvicorn.access - INFO - 127.0.0.1:51745 - "GET /webui/assets/rehype-katex-BX5VrZeK.js HTTP/1.1" 200
+2026-05-31 10:12:51,735 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 40.584308784s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '40s'}]}}]
+2026-05-31 10:12:57,431 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 34.876567371s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34s'}]}}]
+2026-05-31 10:13:03,274 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 29.041668564s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29s'}]}}]
+2026-05-31 10:13:03,274 - lightrag - ERROR - LLM func: Error in decorated function for task 1901463737280_10113.5: RetryError[<Future at 0x1babcab2380 state=finished raised RateLimitError>]
+2026-05-31 10:13:03,274 - lightrag - ERROR - Query failed: RetryError[<Future at 0x1babcab2380 state=finished raised RateLimitError>]
+2026-05-31 10:13:03,274 - uvicorn.access - INFO - 127.0.0.1:52135 - "POST /query/stream HTTP/1.1" 200
+2026-05-31 10:29:35,041 - uvicorn.error - INFO - Shutting down
+2026-05-31 10:29:35,153 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-05-31 10:29:35,158 - lightrag - INFO - Successfully finalized 12 storages
+2026-05-31 10:29:35,160 - uvicorn.error - INFO - Application shutdown complete.
+2026-05-31 10:29:35,161 - uvicorn.error - INFO - Finished server process [17956]
+2026-06-02 15:09:49,233 - lightrag - INFO - OpenAI LLM Options: {}
+2026-06-02 15:09:50,803 - lightrag - INFO - Embedding config: binding=openai model=gemini-embedding-001 embedding_dim=3072 max_token_size=8192
+2026-06-02 15:09:50,803 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=3072, has_param=True, binding=openai)
+2026-06-02 15:09:50,803 - lightrag - INFO - Embedding max_token_size: 8192 (from openai provider default)
+2026-06-02 15:09:50,803 - lightrag - INFO - Reranking is disabled
+2026-06-02 15:09:51,950 - lightrag - INFO - [] Created new empty graph file: D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml
+2026-06-02 15:09:52,149 - lightrag - INFO - WebUI assets mounted at /webui
+2026-06-02 15:09:52,295 - uvicorn.error - INFO - Started server process [2604]
+2026-06-02 15:09:52,295 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-02 15:09:52,295 - lightrag - INFO - [] Process 2604 KV load full_docs with 0 records
+2026-06-02 15:09:52,295 - lightrag - INFO - [] Process 2604 KV load text_chunks with 0 records
+2026-06-02 15:09:52,295 - lightrag - INFO - [] Process 2604 KV load full_entities with 0 records
+2026-06-02 15:09:52,295 - lightrag - INFO - [] Process 2604 KV load full_relations with 0 records
+2026-06-02 15:09:52,295 - lightrag - INFO - [] Process 2604 KV load entity_chunks with 0 records
+2026-06-02 15:09:52,295 - lightrag - INFO - [] Process 2604 KV load relation_chunks with 0 records
+2026-06-02 15:09:52,305 - lightrag - INFO - [] Process 2604 KV load llm_response_cache with 0 records
+2026-06-02 15:09:52,305 - lightrag - INFO - [] Process 2604 doc status load doc_status with 0 records
+2026-06-02 15:09:52,305 - uvicorn.error - INFO - Application startup complete.
+2026-06-02 15:09:52,305 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-06-02 15:10:06,649 - uvicorn.access - INFO - 127.0.0.1:55706 - "GET / HTTP/1.1" 307
+2026-06-02 15:10:06,657 - uvicorn.access - INFO - 127.0.0.1:55706 - "GET /webui HTTP/1.1" 307
+2026-06-02 15:10:06,891 - uvicorn.access - INFO - 127.0.0.1:55706 - "GET /webui/assets/index-Cmfh6eB3.js HTTP/1.1" 200
+2026-06-02 15:10:06,898 - uvicorn.access - INFO - 127.0.0.1:54513 - "GET /webui/assets/chunk-Dlc7tRH4.js HTTP/1.1" 200
+2026-06-02 15:10:06,904 - uvicorn.access - INFO - 127.0.0.1:61301 - "GET /webui/assets/path-BmDdnQs8.js HTTP/1.1" 200
+2026-06-02 15:10:06,940 - uvicorn.access - INFO - 127.0.0.1:54513 - "GET /webui/assets/index-Dbwgayzd.css HTTP/1.1" 200
+2026-06-02 15:10:06,964 - uvicorn.access - INFO - 127.0.0.1:61301 - "GET /webui/assets/array-DA6v84qs.js HTTP/1.1" 200
+2026-06-02 15:10:06,966 - uvicorn.access - INFO - 127.0.0.1:54513 - "GET /webui/assets/katex-BX7meHaV.js HTTP/1.1" 200
+2026-06-02 15:10:07,010 - uvicorn.access - INFO - 127.0.0.1:61301 - "GET /webui/assets/_createAssigner-CdflnHPZ.js HTTP/1.1" 200
+2026-06-02 15:10:07,159 - uvicorn.access - INFO - 127.0.0.1:54513 - "GET /webui/assets/rough.esm-ezLMvHwD.js HTTP/1.1" 200
+2026-06-02 15:10:08,978 - uvicorn.access - INFO - 127.0.0.1:54513 - "GET /auth-status HTTP/1.1" 200
+2026-06-02 15:10:09,626 - uvicorn.access - INFO - 127.0.0.1:54513 - "GET /webui/assets/rehype-katex-BX5VrZeK.js HTTP/1.1" 200
+2026-06-02 15:10:09,793 - uvicorn.access - INFO - 127.0.0.1:55706 - "GET /docs HTTP/1.1" 200
+2026-06-02 15:10:09,797 - uvicorn.access - INFO - 127.0.0.1:54513 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-06-02 15:10:09,817 - uvicorn.access - INFO - 127.0.0.1:55706 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200
+2026-06-02 15:10:09,822 - uvicorn.access - INFO - 127.0.0.1:54513 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 200
+2026-06-02 15:10:10,938 - uvicorn.access - INFO - 127.0.0.1:55706 - "GET /openapi.json HTTP/1.1" 200
+2026-06-02 15:14:48,336 - uvicorn.access - INFO - 127.0.0.1:59481 - "POST /documents/upload HTTP/1.1" 200
+2026-06-02 15:14:48,402 - lightrag - INFO - Successfully extracted and enqueued file: khoa_cap_cuu.txt
+2026-06-02 15:14:48,413 - lightrag - INFO - Processing 1 document(s)
+2026-06-02 15:14:48,419 - lightrag - INFO - Extracting stage 1/1: khoa_cap_cuu.txt
+2026-06-02 15:14:48,419 - lightrag - INFO - Processing d-id: doc-44af3d9a843d7d9194ee875175d1c0b8
+2026-06-02 15:14:48,602 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-06-02 15:14:53,883 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-06-02 15:15:23,104 - lightrag - INFO -  == LLM cache == saving: default:extract:bb5de8ce35527a7328f7c40159f61066
+2026-06-02 15:15:34,867 - lightrag - INFO -  == LLM cache == saving: default:extract:0b6632a29a88e722b7e3839cd3952b61
+2026-06-02 15:15:34,869 - lightrag - INFO - Chunk 1 of 1 extracted 23 Ent + 23 Rel chunk-44af3d9a843d7d9194ee875175d1c0b8
+2026-06-02 15:15:34,875 - lightrag - INFO - Merging stage 1/1: khoa_cap_cuu.txt
+2026-06-02 15:15:34,876 - lightrag - INFO - Phase 1: Processing 23 entities from doc-44af3d9a843d7d9194ee875175d1c0b8 (async: 8)
+2026-06-02 15:15:37,447 - lightrag - INFO - Phase 2: Processing 23 relations from doc-44af3d9a843d7d9194ee875175d1c0b8 (async: 8)
+2026-06-02 15:15:48,358 - lightrag - INFO - Phase 3: Updating final 23(23+0) entities and  23 relations from doc-44af3d9a843d7d9194ee875175d1c0b8
+2026-06-02 15:15:48,360 - lightrag - INFO - Completed merging: 23 entities, 0 extra entities, 23 relations
+2026-06-02 15:15:48,430 - lightrag - INFO - [] Writing graph with 23 nodes, 23 edges
+2026-06-02 15:15:48,726 - lightrag - INFO - In memory DB persist to disk
+2026-06-02 15:15:48,726 - lightrag - INFO - Completed processing file 1/1: khoa_cap_cuu.txt
+2026-06-02 15:15:48,726 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-02 15:17:49,629 - uvicorn.access - INFO - 127.0.0.1:60461 - "POST /documents/upload HTTP/1.1" 200
+2026-06-02 15:17:49,668 - lightrag - INFO - Successfully extracted and enqueued file: khoa_chan_thuong_chinh_hinh.txt
+2026-06-02 15:17:49,679 - lightrag - INFO - Processing 1 document(s)
+2026-06-02 15:17:49,681 - lightrag - INFO - Extracting stage 1/1: khoa_chan_thuong_chinh_hinh.txt
+2026-06-02 15:17:49,685 - lightrag - INFO - Processing d-id: doc-91139c9d21df08d4a8845bea34a51858
+2026-06-02 15:18:36,125 - lightrag - INFO -  == LLM cache == saving: default:extract:104db4d3dab9f6dfdca147e38ccc6508
+2026-06-02 15:18:58,924 - lightrag - INFO -  == LLM cache == saving: default:extract:2aae0dffb319135a9af37fabccd7f5b9
+2026-06-02 15:18:58,929 - lightrag - INFO - Chunk 1 of 1 extracted 37 Ent + 39 Rel chunk-91139c9d21df08d4a8845bea34a51858
+2026-06-02 15:18:58,929 - lightrag - INFO - Merging stage 1/1: khoa_chan_thuong_chinh_hinh.txt
+2026-06-02 15:18:58,936 - lightrag - INFO - Phase 1: Processing 37 entities from doc-91139c9d21df08d4a8845bea34a51858 (async: 8)
+2026-06-02 15:19:03,098 - lightrag - INFO - Phase 2: Processing 39 relations from doc-91139c9d21df08d4a8845bea34a51858 (async: 8)
+2026-06-02 15:19:23,106 - lightrag - INFO - Phase 3: Updating final 37(37+0) entities and  39 relations from doc-91139c9d21df08d4a8845bea34a51858
+2026-06-02 15:19:23,109 - lightrag - INFO - Completed merging: 37 entities, 0 extra entities, 39 relations
+2026-06-02 15:19:23,239 - lightrag - INFO - [] Writing graph with 60 nodes, 62 edges
+2026-06-02 15:19:23,267 - lightrag - INFO - In memory DB persist to disk
+2026-06-02 15:19:23,267 - lightrag - INFO - Completed processing file 1/1: khoa_chan_thuong_chinh_hinh.txt
+2026-06-02 15:19:23,275 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-02 15:20:03,672 - uvicorn.access - INFO - 127.0.0.1:59235 - "POST /documents/upload HTTP/1.1" 200
+2026-06-02 15:20:03,714 - lightrag - INFO - Successfully extracted and enqueued file: khoa_chinh_nha.txt
+2026-06-02 15:20:03,724 - lightrag - INFO - Processing 1 document(s)
+2026-06-02 15:20:03,730 - lightrag - INFO - Extracting stage 1/1: khoa_chinh_nha.txt
+2026-06-02 15:20:03,730 - lightrag - INFO - Processing d-id: doc-a8cb06e2ba30c31c7dec9d574cb76237
+2026-06-02 15:20:39,735 - lightrag - INFO -  == LLM cache == saving: default:extract:543be4bc82e98dfb628f7e8a795aebba
+2026-06-02 15:20:47,392 - lightrag - INFO -  == LLM cache == saving: default:extract:f7d8a6419bde2d6171b7c4f22185ff05
+2026-06-02 15:20:47,397 - lightrag - INFO - Chunk 1 of 1 extracted 21 Ent + 23 Rel chunk-a8cb06e2ba30c31c7dec9d574cb76237
+2026-06-02 15:20:47,397 - lightrag - INFO - Merging stage 1/1: khoa_chinh_nha.txt
+2026-06-02 15:20:47,401 - lightrag - INFO - Phase 1: Processing 21 entities from doc-a8cb06e2ba30c31c7dec9d574cb76237 (async: 8)
+2026-06-02 15:20:49,845 - lightrag - INFO - Phase 2: Processing 23 relations from doc-a8cb06e2ba30c31c7dec9d574cb76237 (async: 8)
+2026-06-02 15:20:58,695 - lightrag - INFO - Phase 3: Updating final 21(21+0) entities and  23 relations from doc-a8cb06e2ba30c31c7dec9d574cb76237
+2026-06-02 15:20:58,695 - lightrag - INFO - Completed merging: 21 entities, 0 extra entities, 23 relations
+2026-06-02 15:20:58,859 - lightrag - INFO - [] Writing graph with 81 nodes, 85 edges
+2026-06-02 15:20:58,886 - lightrag - INFO - In memory DB persist to disk
+2026-06-02 15:20:58,892 - lightrag - INFO - Completed processing file 1/1: khoa_chinh_nha.txt
+2026-06-02 15:20:58,895 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-02 15:24:04,921 - uvicorn.access - INFO - 127.0.0.1:56588 - "POST /documents/upload HTTP/1.1" 200
+2026-06-02 15:24:04,964 - lightrag - INFO - Successfully extracted and enqueued file: khoa_da_lieu.txt
+2026-06-02 15:24:04,972 - lightrag - INFO - Processing 1 document(s)
+2026-06-02 15:24:04,974 - lightrag - INFO - Extracting stage 1/1: khoa_da_lieu.txt
+2026-06-02 15:24:04,976 - lightrag - INFO - Processing d-id: doc-d0fe58285e94fcf40b4dba7f5d5e75cb
+2026-06-02 15:24:38,090 - lightrag - INFO -  == LLM cache == saving: default:extract:49cc639f234231a3d65dd779422f07f6
+2026-06-02 15:24:53,849 - lightrag - INFO -  == LLM cache == saving: default:extract:56a84006a709c04b800d3bac76d10628
+2026-06-02 15:24:53,863 - lightrag - INFO - Chunk 1 of 1 extracted 24 Ent + 43 Rel chunk-d0fe58285e94fcf40b4dba7f5d5e75cb
+2026-06-02 15:24:53,866 - lightrag - INFO - Merging stage 1/1: khoa_da_lieu.txt
+2026-06-02 15:24:53,866 - lightrag - INFO - Phase 1: Processing 24 entities from doc-d0fe58285e94fcf40b4dba7f5d5e75cb (async: 8)
+2026-06-02 15:24:56,583 - lightrag - INFO - Phase 2: Processing 43 relations from doc-d0fe58285e94fcf40b4dba7f5d5e75cb (async: 8)
+2026-06-02 15:25:12,638 - lightrag - INFO - Phase 3: Updating final 24(24+0) entities and  43 relations from doc-d0fe58285e94fcf40b4dba7f5d5e75cb
+2026-06-02 15:25:12,640 - lightrag - INFO - Completed merging: 24 entities, 0 extra entities, 43 relations
+2026-06-02 15:25:12,826 - lightrag - INFO - [] Writing graph with 105 nodes, 128 edges
+2026-06-02 15:25:12,866 - lightrag - INFO - In memory DB persist to disk
+2026-06-02 15:25:12,869 - lightrag - INFO - Completed processing file 1/1: khoa_da_lieu.txt
+2026-06-02 15:25:12,873 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-02 15:32:33,092 - uvicorn.access - INFO - 127.0.0.1:59080 - "POST /documents/upload HTTP/1.1" 200
+2026-06-02 15:32:33,133 - lightrag - INFO - Successfully extracted and enqueued file: khoa_ho_hap.txt
+2026-06-02 15:32:33,142 - lightrag - INFO - Processing 1 document(s)
+2026-06-02 15:32:33,145 - lightrag - INFO - Extracting stage 1/1: khoa_ho_hap.txt
+2026-06-02 15:32:33,145 - lightrag - INFO - Processing d-id: doc-2cb720c848094d856e391e31f00a6a80
+2026-06-02 15:33:19,599 - lightrag - INFO -  == LLM cache == saving: default:extract:436cf536d2d43fc588ce10dedf18260e
+2026-06-02 15:33:32,604 - lightrag - INFO -  == LLM cache == saving: default:extract:6eb7793550b9b7c9f7ed3edf79c45894
+2026-06-02 15:33:32,604 - lightrag - INFO - Chunk 1 of 1 extracted 28 Ent + 28 Rel chunk-2cb720c848094d856e391e31f00a6a80
+2026-06-02 15:33:32,613 - lightrag - INFO - Merging stage 1/1: khoa_ho_hap.txt
+2026-06-02 15:33:32,615 - lightrag - INFO - Phase 1: Processing 28 entities from doc-2cb720c848094d856e391e31f00a6a80 (async: 8)
+2026-06-02 15:33:35,746 - lightrag - INFO - Phase 2: Processing 28 relations from doc-2cb720c848094d856e391e31f00a6a80 (async: 8)
+2026-06-02 15:33:49,131 - lightrag - INFO - Phase 3: Updating final 28(28+0) entities and  28 relations from doc-2cb720c848094d856e391e31f00a6a80
+2026-06-02 15:33:49,133 - lightrag - INFO - Completed merging: 28 entities, 0 extra entities, 28 relations
+2026-06-02 15:33:49,360 - lightrag - INFO - [] Writing graph with 133 nodes, 156 edges
+2026-06-02 15:33:49,410 - lightrag - INFO - In memory DB persist to disk
+2026-06-02 15:33:49,416 - lightrag - INFO - Completed processing file 1/1: khoa_ho_hap.txt
+2026-06-02 15:33:49,416 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-02 15:38:50,551 - uvicorn.access - INFO - 127.0.0.1:62118 - "POST /documents/upload HTTP/1.1" 200
+2026-06-02 15:38:50,596 - lightrag - INFO - Successfully extracted and enqueued file: khoa_ngoai_tong_quat.txt
+2026-06-02 15:38:50,604 - lightrag - INFO - Processing 1 document(s)
+2026-06-02 15:38:50,608 - lightrag - INFO - Extracting stage 1/1: khoa_ngoai_tong_quat.txt
+2026-06-02 15:38:50,613 - lightrag - INFO - Processing d-id: doc-03543c484d67bc5e2964afff8ffdc9f6
+2026-06-02 15:39:37,330 - lightrag - INFO -  == LLM cache == saving: default:extract:6f13e8f71fa9195211b95dd962bf3e26
+2026-06-02 15:40:00,062 - lightrag - INFO -  == LLM cache == saving: default:extract:3987c9381a84c020f30613da63473b93
+2026-06-02 15:40:00,062 - lightrag - INFO - Chunk 1 of 1 extracted 29 Ent + 35 Rel chunk-03543c484d67bc5e2964afff8ffdc9f6
+2026-06-02 15:40:00,078 - lightrag - INFO - Merging stage 1/1: khoa_ngoai_tong_quat.txt
+2026-06-02 15:40:00,078 - lightrag - INFO - Phase 1: Processing 29 entities from doc-03543c484d67bc5e2964afff8ffdc9f6 (async: 8)
+2026-06-02 15:40:02,584 - lightrag - INFO - Phase 2: Processing 30 relations from doc-03543c484d67bc5e2964afff8ffdc9f6 (async: 8)
+2026-06-02 15:40:14,339 - lightrag - INFO - Phase 3: Updating final 29(29+0) entities and  30 relations from doc-03543c484d67bc5e2964afff8ffdc9f6
+2026-06-02 15:40:14,339 - lightrag - INFO - Completed merging: 29 entities, 0 extra entities, 30 relations
+2026-06-02 15:40:14,466 - lightrag - INFO - [] Writing graph with 162 nodes, 186 edges
+2026-06-02 15:40:14,498 - lightrag - INFO - In memory DB persist to disk
+2026-06-02 15:40:14,498 - lightrag - INFO - Completed processing file 1/1: khoa_ngoai_tong_quat.txt
+2026-06-02 15:40:14,498 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-02 15:42:57,740 - uvicorn.access - INFO - 127.0.0.1:53244 - "POST /documents/upload HTTP/1.1" 200
+2026-06-02 15:42:57,758 - lightrag - INFO - Successfully extracted and enqueued file: khoa_nhan_khoa.txt
+2026-06-02 15:42:57,763 - lightrag - INFO - Processing 1 document(s)
+2026-06-02 15:42:57,764 - lightrag - INFO - Extracting stage 1/1: khoa_nhan_khoa.txt
+2026-06-02 15:42:57,765 - lightrag - INFO - Processing d-id: doc-1e9ef6a95d7b4054c7c6e2d7c47f3d2c
+2026-06-02 15:43:33,466 - lightrag - INFO -  == LLM cache == saving: default:extract:f4ffc4802e390b5baec2c70de3dbc27f
+2026-06-02 15:43:56,106 - lightrag - INFO -  == LLM cache == saving: default:extract:f9d572b9121e48a46e4790df692bfc6a
+2026-06-02 15:43:56,110 - lightrag - INFO - Chunk 1 of 1 extracted 32 Ent + 38 Rel chunk-1e9ef6a95d7b4054c7c6e2d7c47f3d2c
+2026-06-02 15:43:56,111 - lightrag - INFO - Merging stage 1/1: khoa_nhan_khoa.txt
+2026-06-02 15:43:56,112 - lightrag - INFO - Phase 1: Processing 32 entities from doc-1e9ef6a95d7b4054c7c6e2d7c47f3d2c (async: 8)
+2026-06-02 15:43:58,999 - lightrag - INFO - Phase 2: Processing 38 relations from doc-1e9ef6a95d7b4054c7c6e2d7c47f3d2c (async: 8)
+2026-06-02 15:44:17,334 - lightrag - INFO - Phase 3: Updating final 32(32+0) entities and  38 relations from doc-1e9ef6a95d7b4054c7c6e2d7c47f3d2c
+2026-06-02 15:44:17,335 - lightrag - INFO - Completed merging: 32 entities, 0 extra entities, 38 relations
+2026-06-02 15:44:17,463 - lightrag - INFO - [] Writing graph with 194 nodes, 224 edges
+2026-06-02 15:44:17,494 - lightrag - INFO - In memory DB persist to disk
+2026-06-02 15:44:17,495 - lightrag - INFO - Completed processing file 1/1: khoa_nhan_khoa.txt
+2026-06-02 15:44:17,496 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-02 15:49:13,889 - uvicorn.access - INFO - 127.0.0.1:55844 - "POST /documents/upload HTTP/1.1" 200
+2026-06-02 15:49:13,908 - lightrag - INFO - Successfully extracted and enqueued file: khoa_nhi_ho_hap.txt
+2026-06-02 15:49:13,911 - lightrag - INFO - Processing 1 document(s)
+2026-06-02 15:49:13,912 - lightrag - INFO - Extracting stage 1/1: khoa_nhi_ho_hap.txt
+2026-06-02 15:49:13,913 - lightrag - INFO - Processing d-id: doc-adc09f8dd410899c49d2788e96052a06
+2026-06-02 15:50:12,645 - lightrag - INFO -  == LLM cache == saving: default:extract:d7c0d35e736ca01dc26257b37a7074ef
+2026-06-02 15:50:33,755 - lightrag - INFO -  == LLM cache == saving: default:extract:9b0aba0f8eeaf0e683abf3d94be6b967
+2026-06-02 15:50:33,756 - lightrag - INFO - Chunk 1 of 1 extracted 26 Ent + 35 Rel chunk-adc09f8dd410899c49d2788e96052a06
+2026-06-02 15:50:33,757 - lightrag - INFO - Merging stage 1/1: khoa_nhi_ho_hap.txt
+2026-06-02 15:50:33,758 - lightrag - INFO - Phase 1: Processing 26 entities from doc-adc09f8dd410899c49d2788e96052a06 (async: 8)
+2026-06-02 15:50:33,792 - lightrag - INFO - Merged: `Pneumonia` | 1+1
+2026-06-02 15:50:33,809 - lightrag - INFO - Merged: `Asthma` | 1+1
+2026-06-02 15:50:34,425 - lightrag - INFO - Merged: `Wheezing` | 1+1
+2026-06-02 15:50:34,479 - lightrag - INFO - Merged: `Stridor` | 1+1
+2026-06-02 15:50:35,384 - lightrag - INFO - Merged: `Recurrent Pneumonia` | 1+1
+2026-06-02 15:50:35,420 - lightrag - INFO - Merged: `Recurrent Bronchitis` | 1+1
+2026-06-02 15:50:36,194 - lightrag - INFO - Phase 2: Processing 35 relations from doc-adc09f8dd410899c49d2788e96052a06 (async: 8)
+2026-06-02 15:50:52,479 - lightrag - INFO - Phase 3: Updating final 26(26+0) entities and  35 relations from doc-adc09f8dd410899c49d2788e96052a06
+2026-06-02 15:50:52,480 - lightrag - INFO - Completed merging: 26 entities, 0 extra entities, 35 relations
+2026-06-02 15:50:52,631 - lightrag - INFO - [] Writing graph with 214 nodes, 259 edges
+2026-06-02 15:50:52,661 - lightrag - INFO - In memory DB persist to disk
+2026-06-02 15:50:52,662 - lightrag - INFO - Completed processing file 1/1: khoa_nhi_ho_hap.txt
+2026-06-02 15:50:52,663 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-02 15:54:55,053 - uvicorn.access - INFO - 127.0.0.1:65269 - "POST /documents/upload HTTP/1.1" 200
+2026-06-02 15:54:55,072 - lightrag - INFO - Successfully extracted and enqueued file: khoa_nhi_tong_quat.txt
+2026-06-02 15:54:55,075 - lightrag - INFO - Processing 1 document(s)
+2026-06-02 15:54:55,076 - lightrag - INFO - Extracting stage 1/1: khoa_nhi_tong_quat.txt
+2026-06-02 15:54:55,076 - lightrag - INFO - Processing d-id: doc-78bfbdf6da7cdf4fbee883ca965a1eb1
+2026-06-02 15:55:30,971 - lightrag - INFO -  == LLM cache == saving: default:extract:ceb3b131c52c449ac269532fd4c93355
+2026-06-02 15:55:38,082 - lightrag - INFO -  == LLM cache == saving: default:extract:af707ebf828e476e029b3461303470b7
+2026-06-02 15:55:38,085 - lightrag - INFO - Chunk 1 of 1 extracted 35 Ent + 34 Rel chunk-78bfbdf6da7cdf4fbee883ca965a1eb1
+2026-06-02 15:55:38,086 - lightrag - INFO - Merging stage 1/1: khoa_nhi_tong_quat.txt
+2026-06-02 15:55:38,087 - lightrag - INFO - Phase 1: Processing 35 entities from doc-78bfbdf6da7cdf4fbee883ca965a1eb1 (async: 8)
+2026-06-02 15:55:38,091 - lightrag - INFO - Merged: `Children` | 1+1
+2026-06-02 15:55:39,378 - lightrag - INFO - Merged: `Rash` | 1+1
+2026-06-02 15:55:41,109 - lightrag - INFO - Phase 2: Processing 34 relations from doc-78bfbdf6da7cdf4fbee883ca965a1eb1 (async: 8)
+2026-06-02 15:56:07,757 - lightrag - INFO - Phase 3: Updating final 35(35+0) entities and  34 relations from doc-78bfbdf6da7cdf4fbee883ca965a1eb1
+2026-06-02 15:56:07,759 - lightrag - INFO - Completed merging: 35 entities, 0 extra entities, 34 relations
+2026-06-02 15:56:07,921 - lightrag - INFO - [] Writing graph with 247 nodes, 293 edges
+2026-06-02 15:56:07,951 - lightrag - INFO - In memory DB persist to disk
+2026-06-02 15:56:07,952 - lightrag - INFO - Completed processing file 1/1: khoa_nhi_tong_quat.txt
+2026-06-02 15:56:07,953 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-02 15:56:17,198 - uvicorn.error - INFO - Shutting down
+2026-06-02 15:56:17,305 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-02 15:56:17,305 - lightrag - INFO - Successfully finalized 12 storages
+2026-06-02 15:56:17,305 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-02 15:56:17,305 - uvicorn.error - INFO - Finished server process [2604]
+2026-06-03 08:40:59,975 - lightrag - INFO - OpenAI LLM Options: {}
+2026-06-03 08:41:02,217 - lightrag - INFO - Embedding config: binding=openai model=gemini-embedding-001 embedding_dim=3072 max_token_size=8192
+2026-06-03 08:41:02,218 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=3072, has_param=True, binding=openai)
+2026-06-03 08:41:02,218 - lightrag - INFO - Embedding max_token_size: 8192 (from openai provider default)
+2026-06-03 08:41:02,219 - lightrag - INFO - Reranking is disabled
+2026-06-03 08:41:04,181 - lightrag - INFO - [] Loaded graph from D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml with 247 nodes, 293 edges
+2026-06-03 08:41:04,882 - lightrag - INFO - WebUI assets mounted at /webui
+2026-06-03 08:41:05,118 - uvicorn.error - INFO - Started server process [8956]
+2026-06-03 08:41:05,118 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-03 08:41:05,139 - lightrag - INFO - [] Process 8956 KV load full_docs with 9 records
+2026-06-03 08:41:05,155 - lightrag - INFO - [] Process 8956 KV load text_chunks with 9 records
+2026-06-03 08:41:05,173 - lightrag - INFO - [] Process 8956 KV load full_entities with 9 records
+2026-06-03 08:41:05,190 - lightrag - INFO - [] Process 8956 KV load full_relations with 9 records
+2026-06-03 08:41:05,211 - lightrag - INFO - [] Process 8956 KV load entity_chunks with 247 records
+2026-06-03 08:41:05,231 - lightrag - INFO - [] Process 8956 KV load relation_chunks with 293 records
+2026-06-03 08:41:05,254 - lightrag - INFO - [] Process 8956 KV load llm_response_cache with 18 records
+2026-06-03 08:41:05,272 - lightrag - INFO - [] Process 8956 doc status load doc_status with 9 records
+2026-06-03 08:41:05,276 - uvicorn.error - INFO - Application startup complete.
+2026-06-03 08:41:05,277 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-06-03 08:44:03,286 - uvicorn.access - INFO - 127.0.0.1:52862 - "GET / HTTP/1.1" 307
+2026-06-03 08:44:03,292 - uvicorn.access - INFO - 127.0.0.1:52862 - "GET /webui HTTP/1.1" 307
+2026-06-03 08:44:03,447 - uvicorn.access - INFO - 127.0.0.1:52862 - "GET /webui/assets/index-Cmfh6eB3.js HTTP/1.1" 200
+2026-06-03 08:44:03,452 - uvicorn.access - INFO - 127.0.0.1:49242 - "GET /webui/assets/chunk-Dlc7tRH4.js HTTP/1.1" 200
+2026-06-03 08:44:03,498 - uvicorn.access - INFO - 127.0.0.1:49242 - "GET /webui/assets/index-Dbwgayzd.css HTTP/1.1" 200
+2026-06-03 08:44:03,500 - uvicorn.access - INFO - 127.0.0.1:54457 - "GET /webui/assets/path-BmDdnQs8.js HTTP/1.1" 200
+2026-06-03 08:44:03,514 - uvicorn.access - INFO - 127.0.0.1:49242 - "GET /webui/assets/array-DA6v84qs.js HTTP/1.1" 200
+2026-06-03 08:44:03,556 - uvicorn.access - INFO - 127.0.0.1:49242 - "GET /webui/assets/_createAssigner-CdflnHPZ.js HTTP/1.1" 200
+2026-06-03 08:44:03,558 - uvicorn.access - INFO - 127.0.0.1:54457 - "GET /webui/assets/katex-BX7meHaV.js HTTP/1.1" 200
+2026-06-03 08:44:03,736 - uvicorn.access - INFO - 127.0.0.1:54457 - "GET /webui/assets/rough.esm-ezLMvHwD.js HTTP/1.1" 200
+2026-06-03 08:44:04,850 - uvicorn.access - INFO - 127.0.0.1:54457 - "GET /auth-status HTTP/1.1" 200
+2026-06-03 08:44:05,437 - uvicorn.access - INFO - 127.0.0.1:54457 - "GET /webui/assets/rehype-katex-BX5VrZeK.js HTTP/1.1" 200
+2026-06-03 08:44:05,668 - uvicorn.access - INFO - 127.0.0.1:49242 - "GET /docs HTTP/1.1" 200
+2026-06-03 08:44:05,673 - uvicorn.access - INFO - 127.0.0.1:52862 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-06-03 08:44:05,688 - uvicorn.access - INFO - 127.0.0.1:52862 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200
+2026-06-03 08:44:05,690 - uvicorn.access - INFO - 127.0.0.1:49242 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 200
+2026-06-03 08:44:06,566 - uvicorn.access - INFO - 127.0.0.1:52862 - "GET /openapi.json HTTP/1.1" 200
+2026-06-03 08:44:42,381 - uvicorn.access - INFO - 127.0.0.1:52499 - "POST /documents/upload HTTP/1.1" 200
+2026-06-03 08:44:42,435 - lightrag - INFO - Successfully extracted and enqueued file: khoa_noi_tiet.txt
+2026-06-03 08:44:42,448 - lightrag - INFO - Processing 1 document(s)
+2026-06-03 08:44:42,461 - lightrag - INFO - Extracting stage 1/1: khoa_noi_tiet.txt
+2026-06-03 08:44:42,468 - lightrag - INFO - Processing d-id: doc-3171cd183fefc02be4f70e9e86405080
+2026-06-03 08:44:42,590 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-06-03 08:44:46,260 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-06-03 08:46:08,334 - lightrag - INFO -  == LLM cache == saving: default:extract:7d51378b0172ab3cb7c19e3b614b3d8b
+2026-06-03 08:46:30,567 - lightrag - INFO -  == LLM cache == saving: default:extract:ea385f702778bed584af4b00372a82e1
+2026-06-03 08:46:30,569 - lightrag - INFO - Chunk 1 of 1 extracted 40 Ent + 38 Rel chunk-3171cd183fefc02be4f70e9e86405080
+2026-06-03 08:46:30,571 - lightrag - INFO - Merging stage 1/1: khoa_noi_tiet.txt
+2026-06-03 08:46:30,573 - lightrag - INFO - Phase 1: Processing 40 entities from doc-3171cd183fefc02be4f70e9e86405080 (async: 8)
+2026-06-03 08:46:34,705 - lightrag - INFO - Phase 2: Processing 38 relations from doc-3171cd183fefc02be4f70e9e86405080 (async: 8)
+2026-06-03 08:46:48,142 - lightrag - INFO - Phase 3: Updating final 40(40+0) entities and  38 relations from doc-3171cd183fefc02be4f70e9e86405080
+2026-06-03 08:46:48,143 - lightrag - INFO - Completed merging: 40 entities, 0 extra entities, 38 relations
+2026-06-03 08:46:48,377 - lightrag - INFO - [] Writing graph with 287 nodes, 331 edges
+2026-06-03 08:46:48,571 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 08:46:48,574 - lightrag - INFO - Completed processing file 1/1: khoa_noi_tiet.txt
+2026-06-03 08:46:48,576 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-03 08:52:16,679 - uvicorn.access - INFO - 127.0.0.1:56866 - "POST /documents/upload HTTP/1.1" 200
+2026-06-03 08:52:16,717 - lightrag - INFO - Successfully extracted and enqueued file: khoa_phu_khoa.txt
+2026-06-03 08:52:16,725 - lightrag - INFO - Processing 1 document(s)
+2026-06-03 08:52:16,727 - lightrag - INFO - Extracting stage 1/1: khoa_phu_khoa.txt
+2026-06-03 08:52:16,729 - lightrag - INFO - Processing d-id: doc-2203d2ace9042cc0fb30ffe9acd893cb
+2026-06-03 08:52:20,938 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 21.402104317s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}]
+2026-06-03 08:52:27,602 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 14.671051624s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}]
+2026-06-03 08:52:34,302 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 7.991510977s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7s'}]}}]
+2026-06-03 08:52:34,305 - lightrag - ERROR - LLM func: Error in decorated function for task 2306244152640_5386.656: RetryError[<Future at 0x218f6e941c0 state=finished raised RateLimitError>]
+2026-06-03 08:52:34,308 - lightrag - ERROR - Failed to extract entities and relationships: RetryError[C[1/1]: chunk-2203d2ace9042cc0fb30ffe9acd893cb: <Future at 0x218f6e941c0 state=finished raised RateLimitError>]
+2026-06-03 08:52:34,754 - lightrag - ERROR - Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\llm\openai.py", line 348, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 7.991510977s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7s'}]}}]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3107, in _process_with_semaphore
+    result = await _process_single_content(chunk)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 2962, in _process_single_content
+    final_result, timestamp = await use_llm_func_with_cache(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 2131, in use_llm_func_with_cache
+    res: str = await use_llm_func(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 1064, in wait_func
+    return await future
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 768, in worker
+    result = await asyncio.wait_for(
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\api\lightrag_server.py", line 519, in optimized_openai_alike_model_complete
+    return await openai_complete_if_cache(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 193, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\__init__.py", line 414, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x218f6e941c0 state=finished raised RateLimitError>]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3115, in _process_with_semaphore
+    raise prefixed_exception from e
+tenacity.RetryError: RetryError[chunk-2203d2ace9042cc0fb30ffe9acd893cb: <Future at 0x218f6e941c0 state=finished raised RateLimitError>]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2048, in process_document
+    chunk_results = await entity_relation_task
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2337, in _process_extract_entities
+    raise e
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2322, in _process_extract_entities
+    chunk_results = await extract_entities(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3157, in extract_entities
+    raise prefixed_exception from first_exception
+tenacity.RetryError: RetryError[C[1/1]: chunk-2203d2ace9042cc0fb30ffe9acd893cb: <Future at 0x218f6e941c0 state=finished raised RateLimitError>]
+
+2026-06-03 08:52:34,759 - lightrag - ERROR - Failed to extract document 1/1: khoa_phu_khoa.txt
+2026-06-03 08:52:34,764 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-03 08:57:33,876 - uvicorn.access - INFO - 127.0.0.1:61095 - "POST /documents/upload HTTP/1.1" 200
+2026-06-03 08:57:33,906 - lightrag - INFO - Successfully extracted and enqueued file: khoa_rang_ham_mat.txt
+2026-06-03 08:57:33,921 - lightrag - INFO - Reset 1 documents from PROCESSING/FAILED to PENDING status
+2026-06-03 08:57:33,923 - lightrag - INFO - Processing 2 document(s)
+2026-06-03 08:57:33,926 - lightrag - INFO - Extracting stage 1/2: khoa_phu_khoa.txt
+2026-06-03 08:57:33,928 - lightrag - INFO - Processing d-id: doc-2203d2ace9042cc0fb30ffe9acd893cb
+2026-06-03 08:57:33,929 - lightrag - INFO - Extracting stage 2/2: khoa_rang_ham_mat.txt
+2026-06-03 08:57:33,934 - lightrag - INFO - Processing d-id: doc-d9de00f14ea3abb108caaff972e3832e
+2026-06-03 08:57:37,956 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 4.344588704s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '4s'}]}}]
+2026-06-03 08:57:44,775 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 57.49517593s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}]
+2026-06-03 08:57:51,552 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 50.769815878s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '50s'}]}}]
+2026-06-03 08:57:51,554 - lightrag - ERROR - LLM func: Error in decorated function for task 2306274015520_5703.656: RetryError[<Future at 0x218f8af5570 state=finished raised RateLimitError>]
+2026-06-03 08:57:51,555 - lightrag - ERROR - Failed to extract entities and relationships: RetryError[C[1/1]: chunk-d9de00f14ea3abb108caaff972e3832e: <Future at 0x218f8af5570 state=finished raised RateLimitError>]
+2026-06-03 08:57:51,559 - lightrag - ERROR - Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\llm\openai.py", line 348, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 50.769815878s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '50s'}]}}]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3107, in _process_with_semaphore
+    result = await _process_single_content(chunk)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 2962, in _process_single_content
+    final_result, timestamp = await use_llm_func_with_cache(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 2131, in use_llm_func_with_cache
+    res: str = await use_llm_func(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 1064, in wait_func
+    return await future
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 768, in worker
+    result = await asyncio.wait_for(
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\api\lightrag_server.py", line 519, in optimized_openai_alike_model_complete
+    return await openai_complete_if_cache(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 193, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\__init__.py", line 414, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x218f8af5570 state=finished raised RateLimitError>]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3115, in _process_with_semaphore
+    raise prefixed_exception from e
+tenacity.RetryError: RetryError[chunk-d9de00f14ea3abb108caaff972e3832e: <Future at 0x218f8af5570 state=finished raised RateLimitError>]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2048, in process_document
+    chunk_results = await entity_relation_task
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2337, in _process_extract_entities
+    raise e
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2322, in _process_extract_entities
+    chunk_results = await extract_entities(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3157, in extract_entities
+    raise prefixed_exception from first_exception
+tenacity.RetryError: RetryError[C[1/1]: chunk-d9de00f14ea3abb108caaff972e3832e: <Future at 0x218f8af5570 state=finished raised RateLimitError>]
+
+2026-06-03 08:57:51,561 - lightrag - ERROR - Failed to extract document 2/2: khoa_rang_ham_mat.txt
+2026-06-03 08:57:52,364 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 49.900805104s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '49s'}]}}]
+2026-06-03 08:57:59,939 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 42.342044708s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}]
+2026-06-03 08:58:06,830 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 35.464979133s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '35s'}]}}]
+2026-06-03 08:58:06,833 - lightrag - ERROR - LLM func: Error in decorated function for task 2306274015104_5703.953: RetryError[<Future at 0x218f6631a20 state=finished raised RateLimitError>]
+2026-06-03 08:58:06,834 - lightrag - ERROR - Failed to extract entities and relationships: RetryError[C[1/1]: chunk-2203d2ace9042cc0fb30ffe9acd893cb: <Future at 0x218f6631a20 state=finished raised RateLimitError>]
+2026-06-03 08:58:06,846 - lightrag - ERROR - Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\llm\openai.py", line 348, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 35.464979133s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '35s'}]}}]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3107, in _process_with_semaphore
+    result = await _process_single_content(chunk)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 2962, in _process_single_content
+    final_result, timestamp = await use_llm_func_with_cache(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 2131, in use_llm_func_with_cache
+    res: str = await use_llm_func(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 1064, in wait_func
+    return await future
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 768, in worker
+    result = await asyncio.wait_for(
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\api\lightrag_server.py", line 519, in optimized_openai_alike_model_complete
+    return await openai_complete_if_cache(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 193, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\__init__.py", line 414, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x218f6631a20 state=finished raised RateLimitError>]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3115, in _process_with_semaphore
+    raise prefixed_exception from e
+tenacity.RetryError: RetryError[chunk-2203d2ace9042cc0fb30ffe9acd893cb: <Future at 0x218f6631a20 state=finished raised RateLimitError>]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2048, in process_document
+    chunk_results = await entity_relation_task
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2337, in _process_extract_entities
+    raise e
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2322, in _process_extract_entities
+    chunk_results = await extract_entities(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3157, in extract_entities
+    raise prefixed_exception from first_exception
+tenacity.RetryError: RetryError[C[1/1]: chunk-2203d2ace9042cc0fb30ffe9acd893cb: <Future at 0x218f6631a20 state=finished raised RateLimitError>]
+
+2026-06-03 08:58:06,847 - lightrag - ERROR - Failed to extract document 1/2: khoa_phu_khoa.txt
+2026-06-03 08:58:06,873 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-03 09:02:11,858 - uvicorn.access - INFO - 127.0.0.1:56730 - "POST /documents/upload HTTP/1.1" 200
+2026-06-03 09:02:11,882 - lightrag - INFO - Successfully extracted and enqueued file: khoa_san_khoa.txt
+2026-06-03 09:02:11,892 - lightrag - INFO - Reset 2 documents from PROCESSING/FAILED to PENDING status
+2026-06-03 09:02:11,894 - lightrag - INFO - Processing 3 document(s)
+2026-06-03 09:02:11,896 - lightrag - INFO - Extracting stage 1/3: khoa_phu_khoa.txt
+2026-06-03 09:02:11,896 - lightrag - INFO - Processing d-id: doc-2203d2ace9042cc0fb30ffe9acd893cb
+2026-06-03 09:02:11,897 - lightrag - INFO - Extracting stage 2/3: khoa_rang_ham_mat.txt
+2026-06-03 09:02:11,897 - lightrag - INFO - Processing d-id: doc-d9de00f14ea3abb108caaff972e3832e
+2026-06-03 09:02:15,611 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 26.615730276s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '26s'}]}}]
+2026-06-03 09:02:15,627 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 26.666834535s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '26s'}]}}]
+2026-06-03 09:02:22,312 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 19.935210859s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}]
+2026-06-03 09:02:22,320 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 19.908554875s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}]
+2026-06-03 09:02:28,891 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 13.364731511s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}]
+2026-06-03 09:02:28,893 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 13.439615288s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}]
+2026-06-03 09:02:28,894 - lightrag - ERROR - LLM func: Error in decorated function for task 2306274013648_5981.406: RetryError[<Future at 0x218f8be7d60 state=finished raised RateLimitError>]
+2026-06-03 09:02:28,895 - lightrag - ERROR - LLM func: Error in decorated function for task 2306275199280_5981.64: RetryError[<Future at 0x218f8be56f0 state=finished raised RateLimitError>]
+2026-06-03 09:02:28,896 - lightrag - ERROR - Failed to extract entities and relationships: RetryError[C[1/1]: chunk-d9de00f14ea3abb108caaff972e3832e: <Future at 0x218f8be7d60 state=finished raised RateLimitError>]
+2026-06-03 09:02:28,897 - lightrag - ERROR - Failed to extract entities and relationships: RetryError[C[1/1]: chunk-2203d2ace9042cc0fb30ffe9acd893cb: <Future at 0x218f8be56f0 state=finished raised RateLimitError>]
+2026-06-03 09:02:28,901 - lightrag - ERROR - Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\llm\openai.py", line 348, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 13.364731511s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3107, in _process_with_semaphore
+    result = await _process_single_content(chunk)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 2962, in _process_single_content
+    final_result, timestamp = await use_llm_func_with_cache(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 2131, in use_llm_func_with_cache
+    res: str = await use_llm_func(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 1064, in wait_func
+    return await future
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 768, in worker
+    result = await asyncio.wait_for(
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\api\lightrag_server.py", line 519, in optimized_openai_alike_model_complete
+    return await openai_complete_if_cache(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 193, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\__init__.py", line 414, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x218f8be7d60 state=finished raised RateLimitError>]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3115, in _process_with_semaphore
+    raise prefixed_exception from e
+tenacity.RetryError: RetryError[chunk-d9de00f14ea3abb108caaff972e3832e: <Future at 0x218f8be7d60 state=finished raised RateLimitError>]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2048, in process_document
+    chunk_results = await entity_relation_task
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2337, in _process_extract_entities
+    raise e
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2322, in _process_extract_entities
+    chunk_results = await extract_entities(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3157, in extract_entities
+    raise prefixed_exception from first_exception
+tenacity.RetryError: RetryError[C[1/1]: chunk-d9de00f14ea3abb108caaff972e3832e: <Future at 0x218f8be7d60 state=finished raised RateLimitError>]
+
+2026-06-03 09:02:28,902 - lightrag - ERROR - Failed to extract document 2/3: khoa_rang_ham_mat.txt
+2026-06-03 09:02:28,907 - lightrag - ERROR - Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\llm\openai.py", line 348, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 13.439615288s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3107, in _process_with_semaphore
+    result = await _process_single_content(chunk)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 2962, in _process_single_content
+    final_result, timestamp = await use_llm_func_with_cache(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 2131, in use_llm_func_with_cache
+    res: str = await use_llm_func(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 1064, in wait_func
+    return await future
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 768, in worker
+    result = await asyncio.wait_for(
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\api\lightrag_server.py", line 519, in optimized_openai_alike_model_complete
+    return await openai_complete_if_cache(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 193, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\__init__.py", line 414, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x218f8be56f0 state=finished raised RateLimitError>]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3115, in _process_with_semaphore
+    raise prefixed_exception from e
+tenacity.RetryError: RetryError[chunk-2203d2ace9042cc0fb30ffe9acd893cb: <Future at 0x218f8be56f0 state=finished raised RateLimitError>]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2048, in process_document
+    chunk_results = await entity_relation_task
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2337, in _process_extract_entities
+    raise e
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2322, in _process_extract_entities
+    chunk_results = await extract_entities(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3157, in extract_entities
+    raise prefixed_exception from first_exception
+tenacity.RetryError: RetryError[C[1/1]: chunk-2203d2ace9042cc0fb30ffe9acd893cb: <Future at 0x218f8be56f0 state=finished raised RateLimitError>]
+
+2026-06-03 09:02:28,908 - lightrag - ERROR - Failed to extract document 1/3: khoa_phu_khoa.txt
+2026-06-03 09:02:28,919 - lightrag - INFO - Extracting stage 3/3: khoa_san_khoa.txt
+2026-06-03 09:02:28,921 - lightrag - INFO - Processing d-id: doc-23103d48f5baad0982d04f892c2ddfa8
+2026-06-03 09:02:32,353 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 9.89087372s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '9s'}]}}]
+2026-06-03 09:02:38,906 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 3.406756769s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '3s'}]}}]
+2026-06-03 09:02:45,375 - lightrag - ERROR - OpenAI API Rate Limit Error: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 56.896944201s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}]
+2026-06-03 09:02:45,377 - lightrag - ERROR - LLM func: Error in decorated function for task 2306274014480_5998.375: RetryError[<Future at 0x218f663dcc0 state=finished raised RateLimitError>]
+2026-06-03 09:02:45,377 - lightrag - ERROR - Failed to extract entities and relationships: RetryError[C[1/1]: chunk-23103d48f5baad0982d04f892c2ddfa8: <Future at 0x218f663dcc0 state=finished raised RateLimitError>]
+2026-06-03 09:02:45,380 - lightrag - ERROR - Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\llm\openai.py", line 348, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 56.896944201s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3107, in _process_with_semaphore
+    result = await _process_single_content(chunk)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 2962, in _process_single_content
+    final_result, timestamp = await use_llm_func_with_cache(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 2131, in use_llm_func_with_cache
+    res: str = await use_llm_func(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 1064, in wait_func
+    return await future
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\utils.py", line 768, in worker
+    result = await asyncio.wait_for(
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\api\lightrag_server.py", line 519, in optimized_openai_alike_model_complete
+    return await openai_complete_if_cache(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 193, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\tenacity\__init__.py", line 414, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x218f663dcc0 state=finished raised RateLimitError>]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3115, in _process_with_semaphore
+    raise prefixed_exception from e
+tenacity.RetryError: RetryError[chunk-23103d48f5baad0982d04f892c2ddfa8: <Future at 0x218f663dcc0 state=finished raised RateLimitError>]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2048, in process_document
+    chunk_results = await entity_relation_task
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2337, in _process_extract_entities
+    raise e
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\lightrag.py", line 2322, in _process_extract_entities
+    chunk_results = await extract_entities(
+  File "D:\Study\workspace\FinalProject\MedicalRag\venv\lib\site-packages\lightrag\operate.py", line 3157, in extract_entities
+    raise prefixed_exception from first_exception
+tenacity.RetryError: RetryError[C[1/1]: chunk-23103d48f5baad0982d04f892c2ddfa8: <Future at 0x218f663dcc0 state=finished raised RateLimitError>]
+
+2026-06-03 09:02:45,381 - lightrag - ERROR - Failed to extract document 3/3: khoa_san_khoa.txt
+2026-06-03 09:02:45,386 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-03 09:04:26,052 - uvicorn.error - INFO - Shutting down
+2026-06-03 09:04:26,156 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-03 09:04:26,157 - lightrag - INFO - Successfully finalized 12 storages
+2026-06-03 09:04:26,159 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-03 09:04:26,159 - uvicorn.error - INFO - Finished server process [8956]
+2026-06-03 09:05:06,731 - lightrag - INFO - OpenAI LLM Options: {}
+2026-06-03 09:05:08,015 - lightrag - INFO - Embedding config: binding=openai model=gemini-embedding-001 embedding_dim=3072 max_token_size=8192
+2026-06-03 09:05:08,016 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=3072, has_param=True, binding=openai)
+2026-06-03 09:05:08,017 - lightrag - INFO - Embedding max_token_size: 8192 (from openai provider default)
+2026-06-03 09:05:08,017 - lightrag - INFO - Reranking is disabled
+2026-06-03 09:05:09,030 - lightrag - INFO - [] Loaded graph from D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml with 287 nodes, 331 edges
+2026-06-03 09:05:09,365 - lightrag - INFO - WebUI assets mounted at /webui
+2026-06-03 09:05:09,477 - uvicorn.error - INFO - Started server process [1760]
+2026-06-03 09:05:09,477 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-03 09:05:09,496 - lightrag - INFO - [] Process 1760 KV load full_docs with 13 records
+2026-06-03 09:05:09,511 - lightrag - INFO - [] Process 1760 KV load text_chunks with 10 records
+2026-06-03 09:05:09,529 - lightrag - INFO - [] Process 1760 KV load full_entities with 10 records
+2026-06-03 09:05:09,544 - lightrag - INFO - [] Process 1760 KV load full_relations with 10 records
+2026-06-03 09:05:09,564 - lightrag - INFO - [] Process 1760 KV load entity_chunks with 287 records
+2026-06-03 09:05:09,578 - lightrag - INFO - [] Process 1760 KV load relation_chunks with 331 records
+2026-06-03 09:05:09,599 - lightrag - INFO - [] Process 1760 KV load llm_response_cache with 20 records
+2026-06-03 09:05:09,611 - lightrag - INFO - [] Process 1760 doc status load doc_status with 13 records
+2026-06-03 09:05:09,614 - uvicorn.error - INFO - Application startup complete.
+2026-06-03 09:05:09,616 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-06-03 09:05:13,528 - uvicorn.access - INFO - 127.0.0.1:54569 - "GET /webui/assets/index-Cmfh6eB3.js HTTP/1.1" 200
+2026-06-03 09:05:13,530 - uvicorn.access - INFO - 127.0.0.1:50575 - "GET /webui/assets/chunk-Dlc7tRH4.js HTTP/1.1" 200
+2026-06-03 09:05:13,539 - uvicorn.access - INFO - 127.0.0.1:50575 - "GET /webui/assets/index-Dbwgayzd.css HTTP/1.1" 200
+2026-06-03 09:05:13,555 - uvicorn.access - INFO - 127.0.0.1:50575 - "GET /webui/assets/path-BmDdnQs8.js HTTP/1.1" 200
+2026-06-03 09:05:13,565 - uvicorn.access - INFO - 127.0.0.1:50575 - "GET /webui/assets/array-DA6v84qs.js HTTP/1.1" 200
+2026-06-03 09:05:13,578 - uvicorn.access - INFO - 127.0.0.1:50575 - "GET /webui/assets/katex-BX7meHaV.js HTTP/1.1" 200
+2026-06-03 09:05:13,598 - uvicorn.access - INFO - 127.0.0.1:50575 - "GET /webui/assets/_createAssigner-CdflnHPZ.js HTTP/1.1" 200
+2026-06-03 09:05:13,613 - uvicorn.access - INFO - 127.0.0.1:50575 - "GET /webui/assets/rough.esm-ezLMvHwD.js HTTP/1.1" 200
+2026-06-03 09:05:14,320 - uvicorn.access - INFO - 127.0.0.1:54569 - "GET /webui/assets/rehype-katex-BX5VrZeK.js HTTP/1.1" 200
+2026-06-03 09:05:14,512 - uvicorn.access - INFO - 127.0.0.1:54569 - "GET /docs HTTP/1.1" 200
+2026-06-03 09:05:14,548 - uvicorn.access - INFO - 127.0.0.1:50575 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200
+2026-06-03 09:05:14,551 - uvicorn.access - INFO - 127.0.0.1:54569 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 200
+2026-06-03 09:05:14,599 - uvicorn.access - INFO - 127.0.0.1:50575 - "GET /webui/favicon.png HTTP/1.1" 200
+2026-06-03 09:05:15,019 - uvicorn.access - INFO - 127.0.0.1:50575 - "GET /openapi.json HTTP/1.1" 200
+2026-06-03 09:05:24,737 - uvicorn.access - INFO - 127.0.0.1:51548 - "DELETE /documents/delete_document HTTP/1.1" 200
+2026-06-03 09:05:24,739 - lightrag - INFO - Deleting document 1/3: doc-23103d48f5baad0982d04f892c2ddfa8
+2026-06-03 09:05:24,740 - lightrag - INFO - Starting deletion process for document doc-23103d48f5baad0982d04f892c2ddfa8
+2026-06-03 09:05:24,741 - lightrag - INFO - Deleting doc-23103d48f5baad0982d04f892c2ddfa8 khoa_san_khoa.txt(previous status: FAILED)
+2026-06-03 09:05:24,742 - lightrag - INFO - No LLM cache entries found for document doc-23103d48f5baad0982d04f892c2ddfa8
+2026-06-03 09:05:24,744 - lightrag - INFO - Found 0 affected entities
+2026-06-03 09:05:24,745 - lightrag - INFO - Found 0 affected relations
+2026-06-03 09:05:24,746 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2026-06-03 09:05:24,948 - lightrag - INFO - [] Writing graph with 287 nodes, 331 edges
+2026-06-03 09:05:25,032 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:05:25,259 - lightrag - INFO - [] Writing graph with 287 nodes, 331 edges
+2026-06-03 09:05:25,314 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:05:25,315 - lightrag - INFO - Document deleted 1/3: doc-23103d48f5baad0982d04f892c2ddfa8[khoa_san_khoa.txt]
+2026-06-03 09:05:25,320 - lightrag - INFO - Successfully deleted enqueued file: khoa_san_khoa.txt
+2026-06-03 09:05:25,321 - lightrag - INFO - Deleting document 2/3: doc-2203d2ace9042cc0fb30ffe9acd893cb
+2026-06-03 09:05:25,322 - lightrag - INFO - Starting deletion process for document doc-2203d2ace9042cc0fb30ffe9acd893cb
+2026-06-03 09:05:25,323 - lightrag - INFO - Deleting doc-2203d2ace9042cc0fb30ffe9acd893cb khoa_phu_khoa.txt(previous status: FAILED)
+2026-06-03 09:05:25,324 - lightrag - INFO - No LLM cache entries found for document doc-2203d2ace9042cc0fb30ffe9acd893cb
+2026-06-03 09:05:25,326 - lightrag - INFO - Found 0 affected entities
+2026-06-03 09:05:25,327 - lightrag - INFO - Found 0 affected relations
+2026-06-03 09:05:25,329 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2026-06-03 09:05:25,512 - lightrag - INFO - [] Writing graph with 287 nodes, 331 edges
+2026-06-03 09:05:25,553 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:05:25,838 - lightrag - INFO - [] Writing graph with 287 nodes, 331 edges
+2026-06-03 09:05:25,885 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:05:25,886 - lightrag - INFO - Document deleted 2/3: doc-2203d2ace9042cc0fb30ffe9acd893cb[khoa_phu_khoa.txt]
+2026-06-03 09:05:25,892 - lightrag - INFO - Successfully deleted enqueued file: khoa_phu_khoa.txt
+2026-06-03 09:05:25,893 - lightrag - INFO - Deleting document 3/3: doc-d9de00f14ea3abb108caaff972e3832e
+2026-06-03 09:05:25,894 - lightrag - INFO - Starting deletion process for document doc-d9de00f14ea3abb108caaff972e3832e
+2026-06-03 09:05:25,896 - lightrag - INFO - Deleting doc-d9de00f14ea3abb108caaff972e3832e khoa_rang_ham_mat.txt(previous status: FAILED)
+2026-06-03 09:05:25,898 - lightrag - INFO - No LLM cache entries found for document doc-d9de00f14ea3abb108caaff972e3832e
+2026-06-03 09:05:25,901 - lightrag - INFO - Found 0 affected entities
+2026-06-03 09:05:25,902 - lightrag - INFO - Found 0 affected relations
+2026-06-03 09:05:25,904 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2026-06-03 09:05:26,091 - lightrag - INFO - [] Writing graph with 287 nodes, 331 edges
+2026-06-03 09:05:26,139 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:05:26,372 - lightrag - INFO - [] Writing graph with 287 nodes, 331 edges
+2026-06-03 09:05:26,445 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:05:26,449 - lightrag - INFO - Document deleted 3/3: doc-d9de00f14ea3abb108caaff972e3832e[khoa_rang_ham_mat.txt]
+2026-06-03 09:05:26,463 - lightrag - INFO - Successfully deleted enqueued file: khoa_rang_ham_mat.txt
+2026-06-03 09:05:43,009 - uvicorn.access - INFO - 127.0.0.1:50060 - "POST /documents/upload HTTP/1.1" 200
+2026-06-03 09:05:43,048 - lightrag - INFO - Successfully extracted and enqueued file: khoa_tim_mach.txt
+2026-06-03 09:05:43,057 - lightrag - INFO - Processing 1 document(s)
+2026-06-03 09:05:43,059 - lightrag - INFO - Extracting stage 1/1: khoa_tim_mach.txt
+2026-06-03 09:05:43,062 - lightrag - INFO - Processing d-id: doc-d507e81294d972cdb6a8e1906c1a053b
+2026-06-03 09:05:43,112 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-06-03 09:05:45,747 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-06-03 09:06:06,981 - lightrag - INFO -  == LLM cache == saving: default:extract:e2b0be94be44ed8dd1c668c6fd7833c8
+2026-06-03 09:06:18,879 - lightrag - INFO -  == LLM cache == saving: default:extract:e76d7a6f54618508f54a41e78dd144c8
+2026-06-03 09:06:18,884 - lightrag - INFO - Chunk 1 of 1 extracted 15 Ent + 15 Rel chunk-d507e81294d972cdb6a8e1906c1a053b
+2026-06-03 09:06:18,887 - lightrag - INFO - Merging stage 1/1: khoa_tim_mach.txt
+2026-06-03 09:06:18,889 - lightrag - INFO - Phase 1: Processing 15 entities from doc-d507e81294d972cdb6a8e1906c1a053b (async: 8)
+2026-06-03 09:06:18,948 - lightrag - INFO - Merged: `Myocardial Infarction` | 1+1
+2026-06-03 09:06:20,959 - lightrag - INFO - Phase 2: Processing 15 relations from doc-d507e81294d972cdb6a8e1906c1a053b (async: 8)
+2026-06-03 09:06:27,257 - lightrag - INFO - Phase 3: Updating final 15(15+0) entities and  15 relations from doc-d507e81294d972cdb6a8e1906c1a053b
+2026-06-03 09:06:27,259 - lightrag - INFO - Completed merging: 15 entities, 0 extra entities, 15 relations
+2026-06-03 09:06:27,509 - lightrag - INFO - [] Writing graph with 301 nodes, 346 edges
+2026-06-03 09:06:27,557 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:06:27,558 - lightrag - INFO - Completed processing file 1/1: khoa_tim_mach.txt
+2026-06-03 09:06:27,559 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-03 09:07:22,930 - uvicorn.access - INFO - 127.0.0.1:53927 - "POST /documents/upload HTTP/1.1" 200
+2026-06-03 09:07:22,961 - lightrag - INFO - Successfully extracted and enqueued file: khoa_phu_khoa.txt
+2026-06-03 09:07:22,969 - lightrag - INFO - Processing 1 document(s)
+2026-06-03 09:07:22,970 - lightrag - INFO - Extracting stage 1/1: khoa_phu_khoa.txt
+2026-06-03 09:07:22,972 - lightrag - INFO - Processing d-id: doc-2203d2ace9042cc0fb30ffe9acd893cb
+2026-06-03 09:07:43,900 - lightrag - INFO -  == LLM cache == saving: default:extract:e52aec4fb9e67d874621777dc508234b
+2026-06-03 09:07:53,498 - lightrag - INFO -  == LLM cache == saving: default:extract:5ffc362481a35c3c9dc8ed97ea2c67a1
+2026-06-03 09:07:53,501 - lightrag - INFO - Chunk 1 of 1 extracted 16 Ent + 15 Rel chunk-2203d2ace9042cc0fb30ffe9acd893cb
+2026-06-03 09:07:53,502 - lightrag - INFO - Merging stage 1/1: khoa_phu_khoa.txt
+2026-06-03 09:07:53,505 - lightrag - INFO - Phase 1: Processing 16 entities from doc-2203d2ace9042cc0fb30ffe9acd893cb (async: 8)
+2026-06-03 09:07:55,079 - lightrag - INFO - Phase 2: Processing 15 relations from doc-2203d2ace9042cc0fb30ffe9acd893cb (async: 8)
+2026-06-03 09:08:02,966 - lightrag - INFO - Phase 3: Updating final 16(16+0) entities and  15 relations from doc-2203d2ace9042cc0fb30ffe9acd893cb
+2026-06-03 09:08:02,968 - lightrag - INFO - Completed merging: 16 entities, 0 extra entities, 15 relations
+2026-06-03 09:08:03,212 - lightrag - INFO - [] Writing graph with 317 nodes, 361 edges
+2026-06-03 09:08:03,262 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:08:03,263 - lightrag - INFO - Completed processing file 1/1: khoa_phu_khoa.txt
+2026-06-03 09:08:03,265 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-03 09:11:40,117 - uvicorn.access - INFO - 127.0.0.1:63751 - "POST /documents/upload HTTP/1.1" 200
+2026-06-03 09:11:40,148 - lightrag - INFO - Successfully extracted and enqueued file: khoa_rang_ham_mat.txt
+2026-06-03 09:11:40,154 - lightrag - INFO - Processing 1 document(s)
+2026-06-03 09:11:40,156 - lightrag - INFO - Extracting stage 1/1: khoa_rang_ham_mat.txt
+2026-06-03 09:11:40,156 - lightrag - INFO - Processing d-id: doc-d9de00f14ea3abb108caaff972e3832e
+2026-06-03 09:12:00,518 - lightrag - INFO -  == LLM cache == saving: default:extract:db2378dd245d51fa0164ad23d03d3763
+2026-06-03 09:12:13,815 - lightrag - INFO -  == LLM cache == saving: default:extract:4c606a4c1130eb425d8be168f64f6d27
+2026-06-03 09:12:13,823 - lightrag - INFO - Chunk 1 of 1 extracted 21 Ent + 20 Rel chunk-d9de00f14ea3abb108caaff972e3832e
+2026-06-03 09:12:13,828 - lightrag - INFO - Merging stage 1/1: khoa_rang_ham_mat.txt
+2026-06-03 09:12:13,832 - lightrag - INFO - Phase 1: Processing 21 entities from doc-d9de00f14ea3abb108caaff972e3832e (async: 8)
+2026-06-03 09:12:15,834 - lightrag - INFO - Phase 2: Processing 20 relations from doc-d9de00f14ea3abb108caaff972e3832e (async: 8)
+2026-06-03 09:12:27,551 - lightrag - INFO - Phase 3: Updating final 21(21+0) entities and  20 relations from doc-d9de00f14ea3abb108caaff972e3832e
+2026-06-03 09:12:27,553 - lightrag - INFO - Completed merging: 21 entities, 0 extra entities, 20 relations
+2026-06-03 09:12:27,767 - lightrag - INFO - [] Writing graph with 338 nodes, 381 edges
+2026-06-03 09:12:27,812 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:12:27,813 - lightrag - INFO - Completed processing file 1/1: khoa_rang_ham_mat.txt
+2026-06-03 09:12:27,814 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-03 09:13:04,404 - uvicorn.access - INFO - 127.0.0.1:61402 - "POST /documents/upload HTTP/1.1" 200
+2026-06-03 09:13:04,425 - lightrag - INFO - Successfully extracted and enqueued file: khoa_san_khoa.txt
+2026-06-03 09:13:04,432 - lightrag - INFO - Processing 1 document(s)
+2026-06-03 09:13:04,435 - lightrag - INFO - Extracting stage 1/1: khoa_san_khoa.txt
+2026-06-03 09:13:04,437 - lightrag - INFO - Processing d-id: doc-23103d48f5baad0982d04f892c2ddfa8
+2026-06-03 09:13:23,879 - lightrag - INFO -  == LLM cache == saving: default:extract:8021f370d2ecddf3921395f65edbdb0c
+2026-06-03 09:13:35,756 - lightrag - INFO -  == LLM cache == saving: default:extract:36cf61b9ae89b38a26fc844e25ec3ea1
+2026-06-03 09:13:35,760 - lightrag - INFO - Chunk 1 of 1 extracted 20 Ent + 19 Rel chunk-23103d48f5baad0982d04f892c2ddfa8
+2026-06-03 09:13:35,761 - lightrag - INFO - Merging stage 1/1: khoa_san_khoa.txt
+2026-06-03 09:13:35,762 - lightrag - INFO - Phase 1: Processing 20 entities from doc-23103d48f5baad0982d04f892c2ddfa8 (async: 8)
+2026-06-03 09:13:37,597 - lightrag - INFO - Phase 2: Processing 19 relations from doc-23103d48f5baad0982d04f892c2ddfa8 (async: 8)
+2026-06-03 09:13:47,616 - lightrag - INFO - Phase 3: Updating final 20(20+0) entities and  19 relations from doc-23103d48f5baad0982d04f892c2ddfa8
+2026-06-03 09:13:47,617 - lightrag - INFO - Completed merging: 20 entities, 0 extra entities, 19 relations
+2026-06-03 09:13:47,851 - lightrag - INFO - [] Writing graph with 358 nodes, 400 edges
+2026-06-03 09:13:47,896 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:13:47,897 - lightrag - INFO - Completed processing file 1/1: khoa_san_khoa.txt
+2026-06-03 09:13:47,899 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-03 09:22:51,035 - uvicorn.access - INFO - 127.0.0.1:50942 - "POST /documents/upload HTTP/1.1" 200
+2026-06-03 09:22:51,057 - lightrag - INFO - Successfully extracted and enqueued file: khoa_tham_my_da.txt
+2026-06-03 09:22:51,062 - lightrag - INFO - Processing 1 document(s)
+2026-06-03 09:22:51,064 - lightrag - INFO - Extracting stage 1/1: khoa_tham_my_da.txt
+2026-06-03 09:22:51,065 - lightrag - INFO - Processing d-id: doc-be7eee4bbe067027f7b8d94ea070eccb
+2026-06-03 09:23:06,096 - lightrag - INFO -  == LLM cache == saving: default:extract:14f9936b190e32c9aff9cd9613eb2e65
+2026-06-03 09:23:16,094 - lightrag - INFO -  == LLM cache == saving: default:extract:81b61b42d960f80522be32896ee56abb
+2026-06-03 09:23:16,098 - lightrag - INFO - Chunk 1 of 1 extracted 14 Ent + 12 Rel chunk-be7eee4bbe067027f7b8d94ea070eccb
+2026-06-03 09:23:16,099 - lightrag - INFO - Merging stage 1/1: khoa_tham_my_da.txt
+2026-06-03 09:23:16,101 - lightrag - INFO - Phase 1: Processing 14 entities from doc-be7eee4bbe067027f7b8d94ea070eccb (async: 8)
+2026-06-03 09:23:17,568 - lightrag - INFO - Phase 2: Processing 12 relations from doc-be7eee4bbe067027f7b8d94ea070eccb (async: 8)
+2026-06-03 09:23:20,835 - lightrag - INFO - Phase 3: Updating final 14(14+0) entities and  12 relations from doc-be7eee4bbe067027f7b8d94ea070eccb
+2026-06-03 09:23:20,836 - lightrag - INFO - Completed merging: 14 entities, 0 extra entities, 12 relations
+2026-06-03 09:23:21,088 - lightrag - INFO - [] Writing graph with 372 nodes, 412 edges
+2026-06-03 09:23:21,137 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:23:21,138 - lightrag - INFO - Completed processing file 1/1: khoa_tham_my_da.txt
+2026-06-03 09:23:21,139 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-03 09:28:17,442 - uvicorn.access - INFO - 127.0.0.1:53983 - "POST /documents/upload HTTP/1.1" 200
+2026-06-03 09:28:17,465 - lightrag - INFO - Successfully extracted and enqueued file: khoa_than_kinh.txt
+2026-06-03 09:28:17,469 - lightrag - INFO - Processing 1 document(s)
+2026-06-03 09:28:17,470 - lightrag - INFO - Extracting stage 1/1: khoa_than_kinh.txt
+2026-06-03 09:28:17,471 - lightrag - INFO - Processing d-id: doc-52a4e131b0c0fef2a8717e503907dbd5
+2026-06-03 09:28:40,533 - lightrag - INFO -  == LLM cache == saving: default:extract:0890f8a771f160c3cc5949100ebf100b
+2026-06-03 09:28:56,095 - lightrag - INFO -  == LLM cache == saving: default:extract:25de3533db6091dc158489e643f632be
+2026-06-03 09:28:56,099 - lightrag - INFO - Chunk 1 of 1 extracted 24 Ent + 23 Rel chunk-52a4e131b0c0fef2a8717e503907dbd5
+2026-06-03 09:28:56,101 - lightrag - INFO - Merging stage 1/1: khoa_than_kinh.txt
+2026-06-03 09:28:56,102 - lightrag - INFO - Phase 1: Processing 24 entities from doc-52a4e131b0c0fef2a8717e503907dbd5 (async: 8)
+2026-06-03 09:28:58,488 - lightrag - INFO - Phase 2: Processing 23 relations from doc-52a4e131b0c0fef2a8717e503907dbd5 (async: 8)
+2026-06-03 09:29:07,349 - lightrag - INFO - Phase 3: Updating final 24(24+0) entities and  23 relations from doc-52a4e131b0c0fef2a8717e503907dbd5
+2026-06-03 09:29:07,350 - lightrag - INFO - Completed merging: 24 entities, 0 extra entities, 23 relations
+2026-06-03 09:29:07,618 - lightrag - INFO - [] Writing graph with 396 nodes, 435 edges
+2026-06-03 09:29:07,674 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:29:07,675 - lightrag - INFO - Completed processing file 1/1: khoa_than_kinh.txt
+2026-06-03 09:29:07,677 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-03 09:34:46,400 - uvicorn.access - INFO - 127.0.0.1:55926 - "POST /documents/upload HTTP/1.1" 200
+2026-06-03 09:34:46,431 - lightrag - INFO - Successfully extracted and enqueued file: khoa_tiet_nieu.txt
+2026-06-03 09:34:46,436 - lightrag - INFO - Processing 1 document(s)
+2026-06-03 09:34:46,437 - lightrag - INFO - Extracting stage 1/1: khoa_tiet_nieu.txt
+2026-06-03 09:34:46,438 - lightrag - INFO - Processing d-id: doc-af7b40dac988e152ae445ea9f3b4d199
+2026-06-03 09:35:05,949 - lightrag - INFO -  == LLM cache == saving: default:extract:26675d506b4dba44c2151f40c8ffe7b8
+2026-06-03 09:35:21,512 - lightrag - INFO -  == LLM cache == saving: default:extract:cfa59caca470446ebe3c7618134070e5
+2026-06-03 09:35:21,522 - lightrag - INFO - Chunk 1 of 1 extracted 24 Ent + 24 Rel chunk-af7b40dac988e152ae445ea9f3b4d199
+2026-06-03 09:35:21,524 - lightrag - INFO - Merging stage 1/1: khoa_tiet_nieu.txt
+2026-06-03 09:35:21,525 - lightrag - INFO - Phase 1: Processing 24 entities from doc-af7b40dac988e152ae445ea9f3b4d199 (async: 8)
+2026-06-03 09:35:24,387 - lightrag - INFO - Phase 2: Processing 24 relations from doc-af7b40dac988e152ae445ea9f3b4d199 (async: 8)
+2026-06-03 09:35:40,388 - lightrag - INFO - Phase 3: Updating final 24(24+0) entities and  24 relations from doc-af7b40dac988e152ae445ea9f3b4d199
+2026-06-03 09:35:40,389 - lightrag - INFO - Completed merging: 24 entities, 0 extra entities, 24 relations
+2026-06-03 09:35:40,667 - lightrag - INFO - [] Writing graph with 420 nodes, 459 edges
+2026-06-03 09:35:40,725 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:35:40,727 - lightrag - INFO - Completed processing file 1/1: khoa_tiet_nieu.txt
+2026-06-03 09:35:40,727 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-03 09:41:57,258 - uvicorn.access - INFO - 127.0.0.1:49810 - "POST /documents/upload HTTP/1.1" 200
+2026-06-03 09:41:57,283 - lightrag - INFO - Successfully extracted and enqueued file: khoa_tieu_hoa.txt
+2026-06-03 09:41:57,288 - lightrag - INFO - Processing 1 document(s)
+2026-06-03 09:41:57,289 - lightrag - INFO - Extracting stage 1/1: khoa_tieu_hoa.txt
+2026-06-03 09:41:57,290 - lightrag - INFO - Processing d-id: doc-c06568d5c7c742ee7833d80d1fff3695
+2026-06-03 09:42:50,306 - lightrag - INFO -  == LLM cache == saving: default:extract:4de51d7833cba2d02b6070b188a02d72
+2026-06-03 09:43:21,703 - lightrag - INFO -  == LLM cache == saving: default:extract:56dc5db1c6009f392659255d6c802c08
+2026-06-03 09:43:21,710 - lightrag - INFO - Chunk 1 of 1 extracted 30 Ent + 53 Rel chunk-c06568d5c7c742ee7833d80d1fff3695
+2026-06-03 09:43:21,711 - lightrag - INFO - Merging stage 1/1: khoa_tieu_hoa.txt
+2026-06-03 09:43:21,713 - lightrag - INFO - Phase 1: Processing 30 entities from doc-c06568d5c7c742ee7833d80d1fff3695 (async: 8)
+2026-06-03 09:43:24,864 - lightrag - INFO - Merged: `Gallstones` | 1+1
+2026-06-03 09:43:26,009 - lightrag - INFO - Merged: `Jaundice` | 1+1
+2026-06-03 09:43:27,823 - lightrag - INFO - Phase 2: Processing 53 relations from doc-c06568d5c7c742ee7833d80d1fff3695 (async: 8)
+2026-06-03 09:44:17,464 - lightrag - INFO - Phase 3: Updating final 30(30+0) entities and  53 relations from doc-c06568d5c7c742ee7833d80d1fff3695
+2026-06-03 09:44:17,467 - lightrag - INFO - Completed merging: 30 entities, 0 extra entities, 53 relations
+2026-06-03 09:44:17,805 - lightrag - INFO - [] Writing graph with 448 nodes, 512 edges
+2026-06-03 09:44:17,871 - lightrag - INFO - In memory DB persist to disk
+2026-06-03 09:44:17,871 - lightrag - INFO - Completed processing file 1/1: khoa_tieu_hoa.txt
+2026-06-03 09:44:17,874 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-06-03 09:46:01,561 - uvicorn.error - INFO - Shutting down
+2026-06-03 09:46:01,670 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-03 09:46:01,671 - lightrag - INFO - Successfully finalized 12 storages
+2026-06-03 09:46:01,673 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-03 09:46:01,675 - uvicorn.error - INFO - Finished server process [1760]
+2026-06-04 15:09:02,559 - lightrag - INFO - OpenAI LLM Options: {}
+2026-06-04 15:09:04,210 - lightrag - INFO - Embedding config: binding=openai model=gemini-embedding-001 embedding_dim=3072 max_token_size=8192
+2026-06-04 15:09:04,210 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=3072, has_param=True, binding=openai)
+2026-06-04 15:09:04,210 - lightrag - INFO - Embedding max_token_size: 8192 (from openai provider default)
+2026-06-04 15:09:04,210 - lightrag - INFO - Reranking is disabled
+2026-06-04 15:09:05,319 - lightrag - INFO - [] Loaded graph from D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml with 448 nodes, 512 edges
+2026-06-04 15:09:05,806 - lightrag - INFO - WebUI assets mounted at /webui
+2026-06-04 15:09:05,988 - uvicorn.error - INFO - Started server process [11412]
+2026-06-04 15:09:05,994 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-04 15:09:06,014 - lightrag - INFO - [] Process 11412 KV load full_docs with 18 records
+2026-06-04 15:09:06,019 - lightrag - INFO - [] Process 11412 KV load text_chunks with 18 records
+2026-06-04 15:09:06,045 - lightrag - INFO - [] Process 11412 KV load full_entities with 18 records
+2026-06-04 15:09:06,059 - lightrag - INFO - [] Process 11412 KV load full_relations with 18 records
+2026-06-04 15:09:06,090 - lightrag - INFO - [] Process 11412 KV load entity_chunks with 448 records
+2026-06-04 15:09:06,107 - lightrag - INFO - [] Process 11412 KV load relation_chunks with 512 records
+2026-06-04 15:09:06,128 - lightrag - INFO - [] Process 11412 KV load llm_response_cache with 36 records
+2026-06-04 15:09:06,150 - lightrag - INFO - [] Process 11412 doc status load doc_status with 18 records
+2026-06-04 15:09:06,155 - uvicorn.error - INFO - Application startup complete.
+2026-06-04 15:09:06,157 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-06-04 15:09:19,473 - uvicorn.access - INFO - 127.0.0.1:64238 - "GET / HTTP/1.1" 307
+2026-06-04 15:09:19,482 - uvicorn.access - INFO - 127.0.0.1:64238 - "GET /webui HTTP/1.1" 307
+2026-06-04 15:09:19,730 - uvicorn.access - INFO - 127.0.0.1:64238 - "GET /webui/assets/index-Cmfh6eB3.js HTTP/1.1" 200
+2026-06-04 15:09:19,732 - uvicorn.access - INFO - 127.0.0.1:56211 - "GET /webui/assets/chunk-Dlc7tRH4.js HTTP/1.1" 200
+2026-06-04 15:09:19,737 - uvicorn.access - INFO - 127.0.0.1:58191 - "GET /webui/assets/path-BmDdnQs8.js HTTP/1.1" 200
+2026-06-04 15:09:19,781 - uvicorn.access - INFO - 127.0.0.1:56211 - "GET /webui/assets/index-Dbwgayzd.css HTTP/1.1" 200
+2026-06-04 15:09:19,781 - uvicorn.access - INFO - 127.0.0.1:58191 - "GET /webui/assets/array-DA6v84qs.js HTTP/1.1" 200
+2026-06-04 15:09:19,796 - uvicorn.access - INFO - 127.0.0.1:56211 - "GET /webui/assets/katex-BX7meHaV.js HTTP/1.1" 200
+2026-06-04 15:09:19,845 - uvicorn.access - INFO - 127.0.0.1:58191 - "GET /webui/assets/_createAssigner-CdflnHPZ.js HTTP/1.1" 200
+2026-06-04 15:09:20,008 - uvicorn.access - INFO - 127.0.0.1:56211 - "GET /webui/assets/rough.esm-ezLMvHwD.js HTTP/1.1" 200
+2026-06-04 15:09:21,814 - uvicorn.access - INFO - 127.0.0.1:56211 - "GET /auth-status HTTP/1.1" 200
+2026-06-04 15:09:22,148 - uvicorn.access - INFO - 127.0.0.1:56211 - "GET /webui/assets/rehype-katex-BX5VrZeK.js HTTP/1.1" 200
+2026-06-04 15:09:22,271 - uvicorn.access - INFO - 127.0.0.1:58191 - "GET /docs HTTP/1.1" 200
+2026-06-04 15:09:22,287 - uvicorn.access - INFO - 127.0.0.1:56211 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 200
+2026-06-04 15:09:22,295 - uvicorn.access - INFO - 127.0.0.1:64238 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200
+2026-06-04 15:09:23,298 - uvicorn.access - INFO - 127.0.0.1:64238 - "GET /openapi.json HTTP/1.1" 200
+2026-06-04 15:09:46,791 - uvicorn.error - INFO - Shutting down
+2026-06-04 15:09:46,898 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-04 15:09:46,900 - lightrag - INFO - Successfully finalized 12 storages
+2026-06-04 15:09:46,900 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-04 15:09:46,900 - uvicorn.error - INFO - Finished server process [11412]
+2026-06-04 21:53:37,069 - lightrag - INFO - OpenAI LLM Options: {}
+2026-06-04 21:53:38,432 - lightrag - INFO - Embedding config: binding=openai model=gemini-embedding-001 embedding_dim=3072 max_token_size=8192
+2026-06-04 21:53:38,433 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=3072, has_param=True, binding=openai)
+2026-06-04 21:53:38,433 - lightrag - INFO - Embedding max_token_size: 8192 (from openai provider default)
+2026-06-04 21:53:38,433 - lightrag - INFO - Reranking is disabled
+2026-06-04 21:53:39,387 - lightrag - INFO - [] Loaded graph from D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml with 448 nodes, 512 edges
+2026-06-04 21:53:39,773 - lightrag - INFO - WebUI assets mounted at /webui
+2026-06-04 21:53:39,919 - uvicorn.error - INFO - Started server process [19424]
+2026-06-04 21:53:39,926 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-04 21:53:39,943 - lightrag - INFO - [] Process 19424 KV load full_docs with 18 records
+2026-06-04 21:53:39,961 - lightrag - INFO - [] Process 19424 KV load text_chunks with 18 records
+2026-06-04 21:53:39,974 - lightrag - INFO - [] Process 19424 KV load full_entities with 18 records
+2026-06-04 21:53:39,983 - lightrag - INFO - [] Process 19424 KV load full_relations with 18 records
+2026-06-04 21:53:40,002 - lightrag - INFO - [] Process 19424 KV load entity_chunks with 448 records
+2026-06-04 21:53:40,018 - lightrag - INFO - [] Process 19424 KV load relation_chunks with 512 records
+2026-06-04 21:53:40,040 - lightrag - INFO - [] Process 19424 KV load llm_response_cache with 36 records
+2026-06-04 21:53:40,054 - lightrag - INFO - [] Process 19424 doc status load doc_status with 18 records
+2026-06-04 21:53:40,056 - uvicorn.error - INFO - Application startup complete.
+2026-06-04 21:53:40,057 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-06-04 21:54:39,890 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-06-04 21:54:46,461 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:79925f643879057e046f275e4dc4369d
+2026-06-04 21:54:46,470 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-06-04 21:54:47,311 - lightrag - INFO - Query nodes: Chest pain, Shortness of breath, Cardiology department, Pulmonology department, Emergency department (top_k:40, cosine:0.2)
+2026-06-04 21:54:47,330 - lightrag - INFO - Local query: 40 entites, 65 relations
+2026-06-04 21:54:47,332 - lightrag - INFO - Query edges: Medical department recommendation, Symptom triaging, Cardiovascular and respiratory health (top_k:40, cosine:0.2)
+2026-06-04 21:54:47,340 - lightrag - INFO - Global query: 46 entites, 40 relations
+2026-06-04 21:54:47,340 - lightrag - INFO - Raw search results: 60 entities, 76 relations, 0 vector chunks
+2026-06-04 21:54:47,350 - lightrag - INFO - After truncation: 60 entities, 76 relations
+2026-06-04 21:54:47,361 - lightrag - INFO - Selecting 7 from 7 entity-related chunks by vector similarity
+2026-06-04 21:54:47,363 - lightrag - INFO - Find no additional relations-related chunks from 76 relations
+2026-06-04 21:54:47,365 - lightrag - INFO - Round-robin merged chunks: 7 -> 7 (deduplicated 0)
+2026-06-04 21:54:47,373 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-06-04 21:54:47,377 - lightrag - INFO - Final context: 60 entities, 76 relations, 7 chunks
+2026-06-04 21:54:47,377 - lightrag - INFO - Final chunks S+F/O: E14/1 E26/2 E9/3 E5/4 E9/5 E3/6 E1/7
+2026-06-04 21:55:00,900 - lightrag - INFO -  == LLM cache == saving: hybrid:query:c67dbb87836763118f22ba8f77e75b96
+2026-06-04 21:55:00,923 - uvicorn.access - INFO - 127.0.0.1:51690 - "POST /query HTTP/1.1" 200
+2026-06-04 21:55:59,542 - uvicorn.error - INFO - Shutting down
+2026-06-04 21:55:59,653 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-04 21:55:59,654 - lightrag - INFO - Successfully finalized 12 storages
+2026-06-04 21:55:59,654 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-04 21:55:59,654 - uvicorn.error - INFO - Finished server process [19424]
+2026-06-25 10:38:49,416 - lightrag - INFO - OpenAI LLM Options: {}
+2026-06-25 10:38:51,084 - lightrag - INFO - Embedding config: binding=openai model=gemini-embedding-001 embedding_dim=3072 max_token_size=8192
+2026-06-25 10:38:51,084 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=3072, has_param=True, binding=openai)
+2026-06-25 10:38:51,085 - lightrag - INFO - Embedding max_token_size: 8192 (from openai provider default)
+2026-06-25 10:38:51,085 - lightrag - INFO - Reranking is disabled
+2026-06-25 10:39:55,415 - lightrag - INFO - [] Loaded graph from D:\Study\workspace\FinalProject\MedicalRag\rag_storage\graph_chunk_entity_relation.graphml with 448 nodes, 512 edges
+2026-06-25 10:39:56,815 - lightrag - INFO - WebUI assets mounted at /webui
+2026-06-25 10:39:57,284 - uvicorn.error - INFO - Started server process [15560]
+2026-06-25 10:39:57,289 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-25 10:39:57,327 - lightrag - INFO - [] Process 15560 KV load full_docs with 18 records
+2026-06-25 10:39:57,340 - lightrag - INFO - [] Process 15560 KV load text_chunks with 18 records
+2026-06-25 10:39:57,374 - lightrag - INFO - [] Process 15560 KV load full_entities with 18 records
+2026-06-25 10:39:57,405 - lightrag - INFO - [] Process 15560 KV load full_relations with 18 records
+2026-06-25 10:39:57,431 - lightrag - INFO - [] Process 15560 KV load entity_chunks with 448 records
+2026-06-25 10:39:57,458 - lightrag - INFO - [] Process 15560 KV load relation_chunks with 512 records
+2026-06-25 10:39:57,504 - lightrag - INFO - [] Process 15560 KV load llm_response_cache with 38 records
+2026-06-25 10:39:57,549 - lightrag - INFO - [] Process 15560 doc status load doc_status with 18 records
+2026-06-25 10:39:57,555 - uvicorn.error - INFO - Application startup complete.
+2026-06-25 10:39:57,560 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-06-25 10:54:38,484 - uvicorn.error - INFO - Shutting down
+2026-06-25 10:54:38,598 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-25 10:54:38,600 - lightrag - INFO - Successfully finalized 12 storages
+2026-06-25 10:54:38,600 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-25 10:54:38,600 - uvicorn.error - INFO - Finished server process [15560]

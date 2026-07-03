@@ -1,0 +1,448 @@
+# TÀI LIỆU TƯ VẤN Y TẾ - HƯỚNG DẪN CHỌN KHOA KHÁM BỆNH
+
+## THÔNG TIN CHUNG
+Tài liệu này giúp bệnh nhân xác định khoa phù hợp để đăng ký khám dựa trên triệu chứng đang gặp phải.
+Chatbot sẽ dựa vào tài liệu này để gợi ý khoa khám cho bệnh nhân.
+Lưu ý quan trọng: Mọi gợi ý chỉ mang tính tham khảo. Bệnh nhân cần được bác sĩ thăm khám trực tiếp để có chẩn đoán chính xác.
+
+---
+
+## KHOA TIM MẠCH
+
+### Mô tả
+Khoa Tim Mạch chuyên chẩn đoán và điều trị các bệnh lý liên quan đến tim, mạch máu và hệ tuần hoàn.
+
+### Triệu chứng nên đến Khoa Tim Mạch
+- Đau tức ngực, cảm giác nặng ngực, bị ép chặt ở ngực
+- Khó thở khi gắng sức hoặc khi nằm xuống
+- Hồi hộp, đánh trống ngực, tim đập nhanh bất thường
+- Tim đập không đều, loạn nhịp tim
+- Ngất xỉu hoặc có cảm giác sắp ngất
+- Phù chân, phù mắt cá chân vào buổi chiều
+- Huyết áp cao kèm đau đầu dữ dội, chóng mặt, mờ mắt
+- Mệt mỏi bất thường khi làm việc nhẹ
+- Môi và đầu ngón tay tím tái
+- Đau lan từ ngực lên vai trái, cánh tay trái, hàm hoặc lưng
+
+### Trường hợp cấp cứu Tim Mạch
+Đến cấp cứu ngay nếu đau ngực dữ dội đột ngột kéo dài trên 15 phút, vã mồ hôi lạnh kèm đau ngực, khó thở nặng đột ngột - đây là dấu hiệu nghi ngờ nhồi máu cơ tim cấp.
+
+### Bệnh lý thường gặp tại Khoa Tim Mạch
+Tăng huyết áp, suy tim, nhồi máu cơ tim, rối loạn nhịp tim, bệnh van tim, xơ vữa động mạch, suy tim sung huyết.
+
+---
+
+## KHOA TIÊU HÓA
+
+### Mô tả
+Khoa Tiêu Hóa chuyên điều trị các bệnh lý về thực quản, dạ dày, ruột non, ruột già, gan, mật và tụy.
+
+### Triệu chứng nên đến Khoa Tiêu Hóa
+- Đau bụng thượng vị (vùng trên rốn, quanh dạ dày)
+- Ợ chua, ợ nóng, cảm giác nóng rát sau xương ức
+- Trào ngược dạ dày thực quản, hay bị ợ thức ăn lên miệng
+- Buồn nôn, nôn mửa kéo dài
+- Đầy bụng, khó tiêu, chướng hơi sau ăn
+- Tiêu chảy kéo dài trên 2 tuần hoặc tiêu chảy tái đi tái lại
+- Táo bón mãn tính, phân cứng khó đi
+- Phân có máu đỏ tươi hoặc phân đen như nhựa đường
+- Vàng da, vàng mắt
+- Đau hạ sườn phải, đặc biệt sau bữa ăn nhiều dầu mỡ
+- Sụt cân không rõ nguyên nhân kèm rối loạn tiêu hóa
+- Khó nuốt, nuốt đau hoặc cảm giác vướng khi nuốt
+- Bụng to, cổ trướng
+
+### Bệnh lý thường gặp tại Khoa Tiêu Hóa
+Viêm loét dạ dày tá tràng, trào ngược dạ dày thực quản, viêm đại tràng, hội chứng ruột kích thích, viêm gan, xơ gan, sỏi mật, viêm tụy, polyp đại tràng.
+
+---
+
+## KHOA HÔ HẤP
+
+### Mô tả
+Khoa Hô Hấp chuyên chẩn đoán và điều trị các bệnh lý về phổi, phế quản và đường hô hấp dưới.
+
+### Triệu chứng nên đến Khoa Hô Hấp
+- Ho kéo dài trên 3 tuần không rõ nguyên nhân
+- Ho ra máu hoặc đờm có lẫn máu
+- Khó thở, thở khò khè, thở rít kéo dài
+- Tức ngực liên quan đến hô hấp
+- Đờm nhiều, đờm vàng xanh hoặc có mùi hôi
+- Hay bị viêm phổi hoặc viêm phế quản tái đi tái lại
+- Sốt nhẹ về chiều, ra mồ hôi đêm, sụt cân, ho kéo dài (nghi lao phổi)
+- Ngủ ngáy to, thức dậy vẫn mệt mỏi, buồn ngủ ban ngày (nghi ngưng thở khi ngủ)
+- Khó thở khi gắng sức tăng dần theo thời gian
+
+### Bệnh lý thường gặp tại Khoa Hô Hấp
+Hen phế quản, bệnh phổi tắc nghẽn mãn tính COPD, viêm phổi, lao phổi, giãn phế quản, tràn dịch màng phổi, ung thư phổi, hội chứng ngưng thở khi ngủ.
+
+---
+
+## KHOA THẦN KINH
+
+### Mô tả
+Khoa Thần Kinh chuyên điều trị các bệnh lý về não bộ, tủy sống, dây thần kinh ngoại biên và hệ thần kinh trung ương.
+
+### Triệu chứng nên đến Khoa Thần Kinh
+- Đau đầu dữ dội, đau đầu mãn tính, đau đầu theo từng cơn
+- Chóng mặt, mất thăng bằng, loạng choạng khi đi
+- Tê bì, kiến bò ở tay chân
+- Yếu tay hoặc chân một bên hoặc cả hai
+- Run tay chân khi nghỉ hoặc khi cử động
+- Co giật, động kinh
+- Hay quên, mất trí nhớ ngắn hạn, lẫn lộn
+- Nói khó, nói ngọng, tìm không ra từ khi nói
+- Nhìn đôi, mờ mắt một bên đột ngột
+- Mất ngủ mãn tính, rối loạn giấc ngủ kéo dài
+- Đau dọc theo dây thần kinh, đau như điện giật
+- Đau đầu kèm buồn nôn, sợ ánh sáng, sợ tiếng động (migraine)
+
+### Trường hợp cấp cứu Thần Kinh
+Đến cấp cứu ngay nếu đột ngột liệt nửa người, méo miệng, nói ngọng, mờ mắt một bên, đau đầu dữ dội nhất từ trước đến nay - đây là dấu hiệu đột quỵ não.
+
+### Bệnh lý thường gặp tại Khoa Thần Kinh
+Đột quỵ, đau đầu migraine, động kinh, bệnh Parkinson, bệnh Alzheimer, viêm màng não, thoát vị đĩa đệm, hội chứng ống cổ tay, đau thần kinh tọa.
+
+---
+
+## KHOA NỘI TIẾT
+
+### Mô tả
+Khoa Nội Tiết chuyên chẩn đoán và điều trị các bệnh lý liên quan đến hormone và rối loạn chuyển hóa như đái tháo đường, tuyến giáp, tuyến thượng thận.
+
+### Triệu chứng nên đến Khoa Nội Tiết
+- Khát nước nhiều, uống nhiều nước, tiểu nhiều lần, tiểu đêm nhiều
+- Sụt cân nhanh không rõ nguyên nhân dù ăn nhiều
+- Tăng cân bất thường, béo phì khó kiểm soát
+- Mệt mỏi, uể oải kéo dài dù ngủ đủ giấc
+- Hồi hộp, tim đập nhanh, run tay, đổ mồ hôi nhiều, sụt cân (nghi cường giáp)
+- Lạnh tay chân quanh năm, tăng cân, táo bón, hay buồn ngủ, trầm cảm (nghi suy giáp)
+- Bướu cổ, sưng vùng cổ trước
+- Rối loạn kinh nguyệt kèm tăng cân, rậm lông, mụn nhiều (nghi hội chứng buồng trứng đa nang)
+- Vết thương lâu lành, hay bị nhiễm trùng tái đi tái lại
+- Tê bì tay chân đối xứng hai bên (biến chứng thần kinh do đái tháo đường)
+
+### Bệnh lý thường gặp tại Khoa Nội Tiết
+Đái tháo đường type 1 và type 2, cường giáp, suy giáp, bướu giáp, hội chứng Cushing, suy thượng thận, loãng xương, béo phì, hội chứng buồng trứng đa nang.
+
+---
+
+## KHOA NGOẠI TỔNG QUÁT
+
+### Mô tả
+Khoa Ngoại Tổng Quát chuyên phẫu thuật và điều trị các bệnh lý vùng bụng, tuyến giáp, thoát vị và các bệnh cần can thiệp ngoại khoa.
+
+### Triệu chứng nên đến Khoa Ngoại Tổng Quát
+- Đau bụng cấp tính dữ dội, đau tăng dần (nghi viêm ruột thừa, thủng tạng)
+- Đau hạ sườn phải dữ dội sau ăn (nghi viêm túi mật, sỏi mật cấp)
+- Khối u, bướu xuất hiện ở bụng, cổ, vùng bẹn hoặc bất kỳ vị trí nào
+- Thoát vị bẹn (khối phồng ở vùng bẹn, xuất hiện khi đứng hoặc rặn)
+- Trĩ nội, trĩ ngoại (đau hậu môn, chảy máu khi đi đại tiện, búi trĩ sa ra ngoài)
+- Nứt hậu môn, áp xe hậu môn
+- Sỏi mật, polyp túi mật cần phẫu thuật
+- Bướu giáp cần phẫu thuật
+- Viêm ruột thừa
+
+### Bệnh lý thường gặp tại Khoa Ngoại Tổng Quát
+Viêm ruột thừa, sỏi mật viêm túi mật, thoát vị bẹn, trĩ, ung thư đại trực tràng, ung thư dạ dày, bướu giáp, thoát vị rốn.
+
+---
+
+## KHOA CHẤN THƯƠNG CHỈNH HÌNH
+
+### Mô tả
+Khoa Chấn Thương Chỉnh Hình chuyên điều trị các bệnh lý và chấn thương về xương, khớp, cơ, gân, dây chằng và cột sống.
+
+### Triệu chứng nên đến Khoa Chấn Thương Chỉnh Hình
+- Gãy xương, trật khớp do tai nạn hoặc chấn thương
+- Đau khớp gối, đau khớp vai, đau khớp háng, đau khớp cổ tay
+- Sưng, nóng, đỏ tại các khớp
+- Cứng khớp buổi sáng kéo dài trên 30 phút
+- Đau thắt lưng mãn tính, đau lưng lan xuống chân (đau thần kinh tọa)
+- Đau cổ, vai gáy, đau lan ra cánh tay, tê tay
+- Thoái hóa khớp, khớp kêu lục cục khi cử động
+- Loãng xương, đau nhức xương toàn thân
+- Viêm gân, viêm bao hoạt dịch
+- Đau gót chân, đau gan bàn chân
+- Hội chứng ống cổ tay (tê bì, đau bàn tay về đêm)
+- Rách dây chằng, tổn thương sụn chêm sau chấn thương thể thao
+
+### Bệnh lý thường gặp tại Khoa Chấn Thương Chỉnh Hình
+Gãy xương, thoát vị đĩa đệm, thoái hóa cột sống, thoái hóa khớp gối, viêm khớp dạng thấp, loãng xương, viêm gân Achilles, rách sụn chêm, trật khớp vai.
+
+---
+
+## KHOA TIẾT NIỆU
+
+### Mô tả
+Khoa Tiết Niệu chuyên điều trị các bệnh lý về thận, niệu quản, bàng quang, niệu đạo và hệ sinh dục nam.
+
+### Triệu chứng nên đến Khoa Tiết Niệu
+- Tiểu buốt, tiểu rắt, tiểu khó, tiểu không hết bãi
+- Tiểu ra máu (nước tiểu màu hồng, đỏ hoặc nâu như nước trà)
+- Đau vùng hông lưng (hố thắt lưng hai bên), đau có thể lan xuống bẹn
+- Đau quặn bụng dữ dội từ lưng lan xuống bẹn và vùng kín (nghi sỏi niệu quản)
+- Phù mặt, phù chân, phù quanh mắt vào buổi sáng
+- Tiểu ít hoặc không tiểu được
+- Tiểu đêm nhiều lần trên 2 lần mỗi đêm
+- Nước tiểu có bọt nhiều kéo dài (nghi đạm niệu)
+- Tiểu không tự chủ, són tiểu
+- Tinh hoàn sưng đau, xuất hiện khối u ở tinh hoàn
+- Phì đại tuyến tiền liệt (tiểu khó, tia tiểu yếu, tiểu ngắt quãng)
+
+### Bệnh lý thường gặp tại Khoa Tiết Niệu
+Sỏi thận, sỏi niệu quản, viêm bàng quang, viêm thận bể thận, bệnh thận mãn tính, phì đại tuyến tiền liệt, ung thư bàng quang, ung thư thận, tiểu không tự chủ.
+
+---
+
+## KHOA CẤP CỨU TỔNG HỢP
+
+### Mô tả
+Khoa Cấp Cứu Tổng Hợp tiếp nhận và xử lý tất cả các trường hợp khẩn cấp, đe dọa tính mạng cần can thiệp y tế ngay lập tức.
+
+### Các trường hợp cần đến Khoa Cấp Cứu Tổng Hợp ngay lập tức
+- Đau ngực dữ dội, khó thở đột ngột (nghi nhồi máu cơ tim)
+- Đột ngột liệt nửa người, méo miệng, nói ngọng, mất ý thức (nghi đột quỵ)
+- Bất tỉnh, hôn mê, không đáp ứng khi gọi
+- Co giật không dừng được, co giật lần đầu
+- Khó thở nặng, tím tái, thở ngắt quãng
+- Chảy máu nhiều không cầm được
+- Tai nạn giao thông, ngã cao, chấn thương nặng
+- Dị ứng nặng sau tiêm thuốc hoặc sau ăn: khó thở, phù mặt, phát ban toàn thân (sốc phản vệ)
+- Ngộ độc thực phẩm nặng, ngộ độc thuốc, uống nhầm hóa chất
+- Sốt cao trên 39.5 độ kèm co giật hoặc rối loạn ý thức
+- Đau bụng cấp dữ dội toàn bộ ổ bụng
+- Điện giật, đuối nước, bỏng nặng
+- Hạ đường huyết nặng: run rẩy, vã mồ hôi, lơ mơ, mất ý thức
+
+### Lưu ý quan trọng
+Trong trường hợp cấp cứu, hãy gọi ngay 115 hoặc nhờ người đưa đến phòng cấp cứu gần nhất. Không tự lái xe khi đang trong tình trạng nguy kịch.
+
+---
+
+## KHOA SẢN KHOA
+
+### Mô tả
+Khoa Sản Khoa chuyên chăm sóc sức khỏe thai kỳ, hỗ trợ sinh nở và chăm sóc sau sinh cho mẹ và bé.
+
+### Triệu chứng và tình huống nên đến Khoa Sản Khoa
+- Nghi ngờ có thai (trễ kinh, que thử thai dương tính)
+- Khám thai định kỳ theo lịch của bác sĩ
+- Đau bụng trong thai kỳ
+- Ra huyết hoặc dịch bất thường khi mang thai
+- Thai máy ít hoặc không cảm nhận được thai máy
+- Phù chân, tay, mặt khi mang thai (nghi tiền sản giật)
+- Huyết áp cao trong thai kỳ
+- Buồn nôn, nôn nặng trong thai kỳ
+- Chuẩn bị sinh, có dấu hiệu chuyển dạ (đau bụng từng cơn đều đặn, vỡ ối)
+- Chăm sóc sau sinh, tắc tia sữa, viêm vú
+
+### Bệnh lý thường gặp tại Khoa Sản Khoa
+Tiền sản giật, đái tháo đường thai kỳ, nhau tiền đạo, thai ngoài tử cung, sảy thai, sinh non, băng huyết sau sinh.
+
+---
+
+## KHOA PHỤ KHOA
+
+### Mô tả
+Khoa Phụ Khoa chuyên chẩn đoán và điều trị các bệnh lý về hệ sinh dục nữ, bao gồm tử cung, buồng trứng, âm đạo và các cơ quan liên quan.
+
+### Triệu chứng nên đến Khoa Phụ Khoa
+- Rối loạn kinh nguyệt (trễ kinh, kinh không đều, mất kinh)
+- Kinh nguyệt ra nhiều bất thường, kéo dài trên 7 ngày
+- Đau bụng kinh dữ dội ảnh hưởng đến sinh hoạt hàng ngày
+- Ra khí hư bất thường: màu vàng, xanh, nâu, mùi hôi khó chịu
+- Ngứa, rát, đau vùng kín
+- Đau vùng bụng dưới, vùng chậu mãn tính
+- Đau khi quan hệ tình dục
+- Phát hiện khối u vùng bụng dưới
+- Khám sức khỏe phụ khoa định kỳ, tầm soát ung thư cổ tử cung
+- Mãn kinh và các triệu chứng: bốc hỏa, khô âm đạo, rối loạn giấc ngủ
+
+### Bệnh lý thường gặp tại Khoa Phụ Khoa
+U xơ tử cung, u nang buồng trứng, lạc nội mạc tử cung, viêm âm đạo, viêm cổ tử cung, hội chứng buồng trứng đa nang, ung thư cổ tử cung, ung thư buồng trứng.
+
+---
+
+## KHOA NHI TỔNG QUÁT
+
+### Mô tả
+Khoa Nhi Tổng Quát chuyên chăm sóc sức khỏe toàn diện cho trẻ em từ sơ sinh đến 15 tuổi, bao gồm khám bệnh thông thường và theo dõi phát triển.
+
+### Triệu chứng nên đến Khoa Nhi Tổng Quát
+- Trẻ sốt cao, sốt kéo dài trên 3 ngày
+- Trẻ bỏ bú, bỏ ăn, quấy khóc nhiều không rõ nguyên nhân
+- Trẻ tiêu chảy, nôn mửa kéo dài
+- Trẻ chậm tăng cân, suy dinh dưỡng
+- Trẻ chậm phát triển thể chất hoặc tâm thần vận động
+- Phát ban, nổi mẩn đỏ toàn thân ở trẻ
+- Trẻ bị nhiễm trùng tai, mũi, họng thường xuyên
+- Đau bụng tái đi tái lại ở trẻ
+- Trẻ vàng da, vàng mắt
+- Tiêm chủng theo lịch, khám sức khỏe định kỳ cho trẻ
+
+### Bệnh lý thường gặp tại Khoa Nhi Tổng Quát
+Viêm họng, viêm amidan, viêm tai giữa, tiêu chảy cấp, sốt xuất huyết, tay chân miệng, sởi, thủy đậu, suy dinh dưỡng, rối loạn tiêu hóa ở trẻ.
+
+---
+
+## KHOA NHI HÔ HẤP
+
+### Mô tả
+Khoa Nhi Hô Hấp chuyên điều trị các bệnh lý về đường hô hấp cho trẻ em, bao gồm viêm phổi, hen suyễn và các bệnh phổi mãn tính ở trẻ.
+
+### Triệu chứng nên đến Khoa Nhi Hô Hấp
+- Trẻ ho kéo dài trên 2 tuần
+- Trẻ thở khò khè, thở rít, thở nhanh
+- Trẻ khó thở, cánh mũi phập phồng, co kéo cơ liên sườn khi thở
+- Trẻ hay bị viêm phổi, viêm phế quản tái đi tái lại
+- Trẻ ho nhiều về đêm hoặc khi thay đổi thời tiết (nghi hen suyễn)
+- Trẻ ho ra đờm vàng xanh, sốt kèm khó thở
+- Trẻ bị dị vật đường thở: đột ngột ho sặc, khó thở sau khi ăn hoặc chơi
+- Trẻ ngáy to khi ngủ, hay thở bằng miệng
+
+### Bệnh lý thường gặp tại Khoa Nhi Hô Hấp
+Hen phế quản ở trẻ em, viêm phổi, viêm tiểu phế quản, viêm phế quản, viêm thanh quản, dị vật đường thở, bệnh phổi mãn tính ở trẻ.
+
+---
+
+## KHOA NHÃN KHOA
+
+### Mô tả
+Khoa Nhãn Khoa chuyên chẩn đoán và điều trị các bệnh lý về mắt và thị lực.
+
+### Triệu chứng nên đến Khoa Nhãn Khoa
+- Mờ mắt, giảm thị lực một bên hoặc cả hai mắt
+- Đỏ mắt, chảy ghèn nhiều, mắt có dịch
+- Đau nhức trong mắt, cảm giác cộm như có dị vật
+- Nhìn đôi (nhìn một vật thành hai)
+- Chói sáng, nhạy cảm với ánh sáng
+- Thấy đốm đen bay trước mắt, tia chớp sáng (nghi bong võng mạc)
+- Thị trường thu hẹp, nhìn như qua đường hầm (nghi glaucoma)
+- Mắt khô, ngứa mắt, hay chảy nước mắt
+- Mắt lé, mắt lác ở trẻ em
+- Kiểm tra thị lực, đo kính cận, viễn, loạn thị
+
+### Trường hợp cấp cứu Nhãn Khoa
+Đến khám ngay nếu mất thị lực đột ngột, chấn thương mắt, hóa chất dính vào mắt, đau mắt dữ dội đột ngột.
+
+### Bệnh lý thường gặp tại Khoa Nhãn Khoa
+Cận thị, viễn thị, loạn thị, đục thủy tinh thể, glaucoma tăng nhãn áp, viêm kết mạc, bong võng mạc, thoái hóa điểm vàng, khô mắt.
+
+---
+
+## KHOA DA LIỄU TỔNG QUÁT
+
+### Mô tả
+Khoa Da Liễu Tổng Quát chuyên chẩn đoán và điều trị các bệnh lý về da, tóc, móng và các bệnh lây qua đường tình dục.
+
+### Triệu chứng nên đến Khoa Da Liễu Tổng Quát
+- Nổi mẩn đỏ, phát ban toàn thân hoặc từng vùng
+- Ngứa da toàn thân hoặc cục bộ kéo dài
+- Mụn trứng cá nặng, mụn mủ, mụn bọc
+- Da bong vảy, đỏ, dày sừng (nghi vảy nến)
+- Eczema, viêm da tiếp xúc, viêm da cơ địa
+- Nấm da: da đóng vảy, bong tróc, ngứa; nấm móng tay móng chân
+- Rụng tóc nhiều, hói từng mảng hoặc hói toàn bộ
+- Mụn cóc, mụn hạt cơm
+- Nốt ruồi thay đổi kích thước, màu sắc, hình dạng hoặc chảy máu
+- Loét da không lành, vết thương lâu liền
+- Ghẻ, chấy rận
+- Bệnh lây qua đường tình dục: mụn rộp sinh dục, sùi mào gà, giang mai, lậu
+
+### Bệnh lý thường gặp tại Khoa Da Liễu Tổng Quát
+Viêm da cơ địa, vảy nến, nấm da, mụn trứng cá, mề đay, bệnh zona, rụng tóc, ung thư da, bệnh lây qua đường tình dục.
+
+---
+
+## KHOA THẨM MỸ DA
+
+### Mô tả
+Khoa Thẩm Mỹ Da chuyên các thủ thuật và điều trị nhằm cải thiện thẩm mỹ da, làm chậm lão hóa và điều trị các vấn đề da liên quan đến thẩm mỹ.
+
+### Các vấn đề nên đến Khoa Thẩm Mỹ Da
+- Nám da, tàn nhang, đốm nâu, đốm đen trên da
+- Da xỉn màu, da không đều màu, thiếu sáng
+- Sẹo mụn, sẹo lõm, sẹo rỗ
+- Sẹo lồi, sẹo phì đại sau phẫu thuật hoặc tai nạn
+- Lỗ chân lông to
+- Da chảy xệ, da nhăn nheo, lão hóa sớm
+- Nếp nhăn vùng trán, đuôi mắt, vùng miệng
+- Mạch máu nhỏ nổi trên da mặt (giãn mao mạch)
+- Xóa xăm không mong muốn
+- Điều trị mụn bằng laser hoặc công nghệ cao
+- Triệt lông bằng laser
+
+### Lưu ý
+Khoa Thẩm Mỹ Da tập trung vào điều trị thẩm mỹ bằng công nghệ và thủ thuật. Nếu có vấn đề bệnh lý về da như ngứa, nhiễm trùng, bệnh da mãn tính, nên đến Khoa Da Liễu Tổng Quát trước.
+
+---
+
+## KHOA RĂNG HÀM MẶT TỔNG QUÁT
+
+### Mô tả
+Khoa Răng Hàm Mặt Tổng Quát chuyên điều trị các bệnh lý về răng, nướu, xương hàm và vùng miệng.
+
+### Triệu chứng nên đến Khoa Răng Hàm Mặt Tổng Quát
+- Đau răng, đau nhức dữ dội hoặc âm ỉ
+- Sâu răng, răng bị vỡ, gãy răng
+- Nướu sưng, nướu chảy máu khi đánh răng
+- Hôi miệng kéo dài dù đánh răng đều đặn
+- Răng lung lay, rụng răng
+- Áp xe răng, áp xe nướu: sưng đau, có mủ
+- Mọc răng khôn đau, răng khôn mọc lệch
+- Khó há miệng, đau khớp thái dương hàm
+- Nhổ răng, trám răng, lấy tủy răng
+- Cấy ghép implant
+- Khám răng định kỳ, lấy cao răng
+
+### Bệnh lý thường gặp tại Khoa Răng Hàm Mặt Tổng Quát
+Sâu răng, viêm nướu, viêm nha chu, áp xe răng, răng khôn mọc lệch, rối loạn khớp thái dương hàm, ung thư miệng.
+
+---
+
+## KHOA CHỈNH NHA
+
+### Mô tả
+Khoa Chỉnh Nha chuyên điều trị các vấn đề về lệch lạc khớp cắn, răng mọc không đều và bất hài hòa khuôn mặt thông qua niềng răng và các thiết bị chỉnh hình.
+
+### Các vấn đề nên đến Khoa Chỉnh Nha
+- Răng mọc lệch, chen chúc, không đều
+- Răng thưa, kẽ hở giữa các răng
+- Khớp cắn hô: răng trên chìa ra quá nhiều so với răng dưới
+- Khớp cắn móm: răng dưới chìa ra phía trước so với răng trên
+- Khớp cắn hở: khi cắn lại hàm trên và hàm dưới không chạm nhau
+- Cắn chéo: một số răng hàm trên nằm sau răng hàm dưới
+- Khuôn mặt mất cân đối do vấn đề xương hàm
+- Tư vấn và điều trị niềng răng: mắc cài kim loại, mắc cài sứ, niềng răng trong suốt Invisalign
+- Chỉnh hình hàm mặt cho trẻ em đang phát triển
+
+### Lưu ý
+Thời điểm lý tưởng để chỉnh nha là từ 10 đến 14 tuổi khi xương hàm còn đang phát triển. Tuy nhiên người lớn vẫn có thể niềng răng hiệu quả ở bất kỳ độ tuổi nào.
+
+---
+
+## HƯỚNG DẪN CHỌN KHOA NHANH THEO VÙNG TRIỆU CHỨNG
+
+Đầu, não, thần kinh: đau đầu, chóng mặt, co giật, tê liệt → Khoa Thần Kinh hoặc Cấp Cứu Tổng Hợp
+Mắt: mờ mắt, đỏ mắt, đau mắt → Khoa Nhãn Khoa
+Miệng và răng: đau răng, nướu sưng → Khoa Răng Hàm Mặt Tổng Quát; răng lệch, khớp cắn sai → Khoa Chỉnh Nha
+Cổ, tuyến giáp: bướu cổ → Khoa Nội Tiết hoặc Ngoại Tổng Quát
+Ngực và tim: đau ngực, tim đập bất thường → Khoa Tim Mạch hoặc Cấp Cứu Tổng Hợp
+Phổi, hô hấp: ho kéo dài, khó thở người lớn → Khoa Hô Hấp; trẻ em → Khoa Nhi Hô Hấp
+Bụng trên: đau dạ dày, ợ chua → Khoa Tiêu Hóa
+Bụng dưới nữ giới: đau bụng kinh, khí hư → Khoa Phụ Khoa; mang thai → Khoa Sản Khoa
+Bụng cấp tính: đau bụng dữ dội → Khoa Ngoại Tổng Quát hoặc Cấp Cứu Tổng Hợp
+Xương khớp, chấn thương: đau lưng, gãy xương, đau khớp → Khoa Chấn Thương Chỉnh Hình
+Tiểu tiện: tiểu buốt, tiểu ra máu, sỏi thận → Khoa Tiết Niệu
+Da: ngứa, phát ban, nấm da → Khoa Da Liễu Tổng Quát; nám, sẹo, lão hóa → Khoa Thẩm Mỹ Da
+Trẻ em bệnh thông thường: sốt, tiêu chảy, chậm lớn → Khoa Nhi Tổng Quát
+Trẻ em hô hấp: ho, khó thở, hen suyễn → Khoa Nhi Hô Hấp
+Nội tiết, chuyển hóa: tiểu nhiều, khát nhiều, bướu giáp → Khoa Nội Tiết
+Khẩn cấp, đe dọa tính mạng → Khoa Cấp Cứu Tổng Hợp, gọi 115
+
+---
+
+## LƯU Ý QUAN TRỌNG
+
+Thông tin trong tài liệu này chỉ mang tính chất gợi ý và tham khảo ban đầu để hỗ trợ bệnh nhân định hướng chọn khoa phù hợp. Chatbot không thể thay thế việc thăm khám trực tiếp của bác sĩ. Chẩn đoán chính xác cần dựa trên khám lâm sàng, xét nghiệm và hình ảnh y tế. Trong trường hợp khẩn cấp hoặc không chắc chắn, hãy đến Khoa Cấp Cứu Tổng Hợp hoặc gọi ngay 115.

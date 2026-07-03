@@ -1,0 +1,13 @@
+.env
+
+# Không push cache RAG
+rag_storage/
+
+# Không push môi trường ảo Python
+venv/
+.venv/
+
+# Không push file output
+output/
+__pycache__/
+*.pyc
